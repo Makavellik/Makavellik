@@ -1,7 +1,7 @@
 <!-- 🌌 BIENVENIDO AL UNIVERSO DE WILLIAM 🌌 -->
 
 <p align="center">
-  <img src="https://i.imgur.com/jxIqZQB.gif" alt="matrix_code" width="100%"/>
+  <img src="/blackhackbywa.png" alt="matrix_code" width="100%"/>
 </p>
 
 <h1 align="center" style="font-family:monospace;">⚡ William Ayala ⚡</h1>
