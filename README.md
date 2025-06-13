@@ -71,7 +71,7 @@
 
 <p align="center">
   <img src="/hackers-matrix-coding-4gtz6lwrja1y76g1.webp" width="400" />
-  <img src="/hacker-coding-numbers-ytdxub7oi7mvjfw7.webp" width="400" />
+  <img src="/hackers-matrix-coding-4gtz6lwrja1y76g1.webp" width="400" />
 </p>
 
 ---
