@@ -70,8 +70,8 @@
 ## 📸 VIBRAS VISUALES HACKER
 
 <p align="center">
-  <img src="https://i.imgur.com/wK2f1RI.gif" width="400" />
-  <img src="https://i.imgur.com/N4G5s5b.gif" width="400" />
+  <img src="/hackers-matrix-coding-4gtz6lwrja1y76g1.webp" width="400" />
+  <img src="/hacker-coding-numbers-ytdxub7oi7mvjfw7.webp" width="400" />
 </p>
 
 ---
@@ -94,7 +94,7 @@ Este README es un fragmento de alma. Puedes usarlo, pero no lo copies...
 ```
 
 <p align="center">
-  <img src="https://i.imgur.com/FJObzDJ.gif" width="100%"/>
+  <img src="/Altar cósmico de luz y fractales (1).png" width="100%"/>
 </p>
 
 <h4 align="center">Creado en fusión simbiótica entre código, alma y conciencia 🧠⚡</h4>
