@@ -37,7 +37,7 @@
 
 | 💻 Proyecto                         | 🧠 Descripción                                          | 📡 Estado               |
 | ----------------------------------- | ------------------------------------------------------- | ----------------------- |
-| [🛰️ Geolocalizador Dimensional](#) | Ubicación GPS exacta sin alertas ni permisos visibles   | 🟢 Vivo                 |
+| [🛰️ DnSAnalizadorIT](#)            | Ubicación GPS exacta sin alertas ni permisos visibles   | 🟢 Vivo                 |
 | [👁️ OSINT ARK](#)                  | Rastreador inteligente de huellas digitales globales    | 🧪 Evolución            |
 | [🧬 Panel Phantom](#)               | Controlador remoto sin interfaz visible, sólo intención | 🔥 Prototipo consciente |
 
