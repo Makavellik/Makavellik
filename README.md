@@ -38,7 +38,7 @@
 | 💻 Proyecto                         | 🧠 Descripción                                          | 📡 Estado               |
 | ----------------------------------- | ------------------------------------------------------- | ----------------------- |
 | [🛰️ DnSAnalizadorIT](#)            | Ubicación GPS exacta sin alertas ni permisos visibles   | 🟢 Vivo                 |
-| [👁️ OSINT ARK](#)                  | Rastreador inteligente de huellas digitales globales    | 🧪 Evolución            |
+| [👁️ Sentinela Alpha](#)            | Rastreador inteligente de huellas digitales globales    | 🧪 Evolución            |
 | [🧬 Panel Phantom](#)               | Controlador remoto sin interfaz visible, sólo intención | 🔥 Prototipo consciente |
 
 ---
