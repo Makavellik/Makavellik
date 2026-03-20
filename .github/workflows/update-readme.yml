@@ -1,9 +1,12 @@
-name: ⚡ Live README System PRO
+name: ⚡ Live README System PRO MAX
 
 on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update:
@@ -12,10 +15,14 @@ jobs:
     steps:
       - name: Clonar repo
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
-      - name: Generar README desde plantilla
+      - name: Generar README
         run: |
           cp README.template.md README.md
+
           STATUS=$(shuf -n 1 -e "ONLINE" "STEALTH" "ACTIVE")
           DATE=$(date)
           ACTIVITY=$(shuf -n 1 -e "ALTA" "MEDIA" "INTENSA")
@@ -23,6 +30,7 @@ jobs:
           COMMITS=$(shuf -i 1-10 -n 1)
           REPOS=$(shuf -i 1-5 -n 1)
           HOURS=$(shuf -i 1-12 -n 1)
+
           MESSAGES=(
             "El sistema evoluciona..."
             "Nueva capa cargada..."
@@ -30,6 +38,7 @@ jobs:
             "Conciencia adaptativa activa..."
           )
           MESSAGE=${MESSAGES[$RANDOM % ${#MESSAGES[@]}]}
+
           sed -i "s/{{STATUS}}/$STATUS/g" README.md
           sed -i "s/{{LAST_UPDATE}}/$DATE/g" README.md
           sed -i "s/{{ACTIVITY_LEVEL}}/$ACTIVITY/g" README.md
@@ -38,10 +47,14 @@ jobs:
           sed -i "s/{{REPOS}}/$REPOS/g" README.md
           sed -i "s/{{HOURS}}/$HOURS/g" README.md
           sed -i "s/{{DAILY_MESSAGE}}/$MESSAGE/g" README.md
-      - name: Commit y push
+
+      - name: Commit y push (modo seguro)
         run: |
-          git config --global user.name "william-bot"
-          git config --global user.email "bot@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add README.md
-          git commit -m "⚡ system auto-update" || echo "no changes"
-          git push
+          git commit -m "⚡ auto-update system" || echo "sin cambios"
+
+          git pull origin main --rebase
+          git push origin HEAD:main
