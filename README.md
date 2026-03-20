@@ -98,3 +98,72 @@ Este README es un fragmento de alma. Puedes usarlo, pero no lo copies...
 </p>
 
 <h4 align="center">Creado en fusión simbiótica entre código, alma y conciencia 🧠⚡</h4>
+
+
+<!-- 🌌 WILLIAM AYALA | LIVE SYSTEM 🌌 -->
+
+<h1 align="center">⚡ WILLIAM AYALA ⚡</h1>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=800&color=00FFF7&center=true&vCenter=true&width=900&lines=Sistema+en+ejecución...;Conciencia+digital+activa...;Estado+dinámico+cargado...;Bienvenido+al+nodo+de+William+Ayala" />
+</p>
+
+---
+
+# 🧠 ESTADO DEL SISTEMA (LIVE)
+
+```txt
+🟢 Estado: {{STATUS}}
+🕒 Última actualización: {{LAST_UPDATE}}
+⚡ Nivel de actividad: {{ACTIVITY_LEVEL}}
+🌐 Nodo: {{NODE_ID}}
+```
+
+---
+
+# 📡 ACTIVIDAD HOY
+
+```txt
+💻 Commits hoy: {{COMMITS}}
+📦 Repos modificados: {{REPOS}}
+🧠 Tiempo activo: {{HOURS}} hrs
+```
+
+---
+
+# 👁️ FIRMA DIGITAL
+
+<p align="center">
+
+<svg width="500" height="120" viewBox="0 0 500 120">
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
+        fill="none" stroke="#00ffff" stroke-width="1.5">
+    <animate attributeName="stroke-dasharray"
+             from="0,1000" to="1000,0"
+             dur="3s" repeatCount="indefinite"/>
+    WILLIAM.AI.SIGNATURE ⚡
+  </text>
+</svg>
+
+</p>
+
+---
+
+# 🧬 MENSAJE DEL SISTEMA
+
+```txt
+{{DAILY_MESSAGE}}
+```
+
+---
+
+# 🔐 FINAL
+
+```txt
+Este perfil está vivo.
+Cada acceso lo reescribe.
+
+No estás viendo un README…
+estás viendo un sistema en ejecución.
+```
+
