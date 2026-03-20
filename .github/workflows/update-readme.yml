@@ -1,4 +1,4 @@
-name: ⚡ Live README System PRO MAX
+name: ⚡ Live README System PRO FINAL
 
 on:
   schedule:
@@ -13,11 +13,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Clonar repo
+      - name: Checkout
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          fetch-depth: 0
 
       - name: Generar README
         run: |
@@ -48,13 +45,8 @@ jobs:
           sed -i "s/{{HOURS}}/$HOURS/g" README.md
           sed -i "s/{{DAILY_MESSAGE}}/$MESSAGE/g" README.md
 
-      - name: Commit y push (modo seguro)
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git add README.md
-          git commit -m "⚡ auto-update system" || echo "sin cambios"
-
-          git pull origin main --rebase
-          git push origin HEAD:main
+      - name: Commit automático (SIN ERROR)
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "⚡ auto-update system"
+          file_pattern: README.md
