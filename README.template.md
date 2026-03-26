@@ -1,3 +1,101 @@
+<!-- ☠️ MILITARY HUD NEON SYSTEM -->
+
+<p align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=30&duration=2500&pause=1200&color=00FFF7&center=true&vCenter=true&width=1000&lines=>>+INITIALIZING+TACTICAL+HUD...;>>+LINKING+NEURAL+SYSTEM...;>>+TRACKING+SIGNAL+WILLIAM+AYALA;>>+STATUS:+ACTIVE+%7C+MODE:+SURVEILLANCE" />
+
+</p>
+
+---
+
+<p align="center">
+
+<svg width="700" height="220">
+
+  <!-- 🔵 RADAR CIRCLE -->
+
+<circle cx="350" cy="110" r="80"
+       stroke="#00FFF7"
+       stroke-width="1.5"
+       fill="none"
+       opacity="0.6"/>
+
+<circle cx="350" cy="110" r="50"
+       stroke="#00FFF7"
+       stroke-width="1"
+       fill="none"
+       opacity="0.4"/>
+
+  <!-- 🔄 RADAR SWEEP -->
+
+<line x1="350" y1="110" x2="350" y2="30"
+     stroke="#00FFF7"
+     stroke-width="2"> <animateTransform attributeName="transform"
+   type="rotate"
+   from="0 350 110"
+   to="360 350 110"
+   dur="6s"
+   repeatCount="indefinite"/> </line>
+
+  <!-- 📍 TARGET BLIP -->
+
+  <circle cx="410" cy="80" r="3" fill="#00FFAA">
+    <animate attributeName="r" values="3;6;3"
+      dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- 🧠 TEXT -->
+
+<text x="50%" y="200" text-anchor="middle"
+     fill="#00FFF7" font-size="14" font-family="monospace">
+TARGET LOCKED • SIGNAL STABLE • SCANNING... </text>
+
+</svg>
+
+</p>
+
+---
+
+<p align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=20&duration=3000&pause=1500&color=00FFAA&center=true&vCenter=true&width=900&lines=ENCRYPTION+ACTIVE...;SECURITY+LAYER+STABLE...;REAL-TIME+MONITORING+ENABLED...;ALL+SYSTEMS+NOMINAL" />
+
+</p>
+
+---
+
+<p align="center">
+
+<!-- ⚡ NEON LINE -->
+
+<svg width="800" height="60">
+  <defs>
+    <linearGradient id="lineGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00FFF7"/>
+      <stop offset="100%" stop-color="#00FFAA"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="25" width="800" height="2" fill="url(#lineGlow)">
+    <animate attributeName="x"
+      from="-800" to="800"
+      dur="5s"
+      repeatCount="indefinite"/>
+  </rect>
+</svg>
+
+</p>
+
+---
+
+<p align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:001AFF,100:00FFF7&height=120&section=footer&animation=twinkling"/>
+
+</p>
+
+
+
 <!-- 🌌 TEMPLATE SYSTEM CORE 🌌 -->
 
 <h1 align="center">⚡ WILLIAM AYALA ⚡</h1>
