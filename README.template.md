@@ -3,7 +3,7 @@
 <h1 align="center">⚡ WILLIAM AYALA ⚡</h1>
 
 <p align="center">
-  <img src="black?font=Orbitron&size=26&pause=700&color=00FFF7&center=true&vCenter=true&width=900&lines=Inicializando+nodo...;Sincronizando+conciencia...;Sistema+adaptativo+activo...;Bienvenido+al+núcleo+William+Ayala" />
+  <img src="blackhackbywa.png?font=Orbitron&size=26&pause=700&color=00FFF7&center=true&vCenter=true&width=900&lines=Inicializando+nodo...;Sincronizando+conciencia...;Sistema+adaptativo+activo...;Bienvenido+al+núcleo+William+Ayala" />
 </p>
 
 ---
