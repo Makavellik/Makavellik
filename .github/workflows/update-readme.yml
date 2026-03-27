@@ -28,6 +28,30 @@ jobs:
           REPOS=$(shuf -i 1-5 -n 1)
           HOURS=$(shuf -i 1-12 -n 1)
 
+          # 🔥 NUEVAS VARIABLES (NO ROMPEN NADA)
+          LATENCY=$(shuf -i 20-120 -n 1)
+          CPU=$(shuf -i 10-95 -n 1)
+          MEMORY=$(shuf -i 20-95 -n 1)
+
+          SECURITY=$(shuf -n 1 -e "LOW" "MEDIUM" "HIGH")
+          THREAT=$(shuf -n 1 -e "STABLE" "ELEVATED" "CRITICAL")
+
+          TREND=$(shuf -n 1 -e "UP" "DOWN" "STABLE")
+          STREAK=$(shuf -i 1-30 -n 1)
+
+          AI_STATUS=$(shuf -n 1 -e "ACTIVE" "LEARNING" "OPTIMIZING")
+          AUTO_STATUS=$(shuf -n 1 -e "RUNNING" "IDLE")
+          SEC_STATUS=$(shuf -n 1 -e "SECURE" "MONITORING")
+          NET_STATUS=$(shuf -n 1 -e "STABLE" "LATENT")
+          EVOLUTION=$(shuf -n 1 -e "PHASE-1" "PHASE-2" "EXPANDING")
+
+          TIMEZONE="UTC"
+          CURRENT_TIME=$(date +%H:%M:%S)
+          WEATHER=$(shuf -n 1 -e "CLEAR" "CLOUDY" "UNKNOWN")
+
+          # ⚡ EVENTOS DINÁMICOS
+          EVENTS=$(printf "[SYS] Scan complete\n[AI] Pattern detected\n[NET] Stable connection")
+
           MESSAGES=(
             "El sistema evoluciona..."
             "Nueva capa cargada..."
@@ -36,6 +60,7 @@ jobs:
           )
           MESSAGE=${MESSAGES[$RANDOM % ${#MESSAGES[@]}]}
 
+          # 🧠 REEMPLAZOS ORIGINALES
           sed -i "s/{{STATUS}}/$STATUS/g" README.md
           sed -i "s/{{LAST_UPDATE}}/$DATE/g" README.md
           sed -i "s/{{ACTIVITY_LEVEL}}/$ACTIVITY/g" README.md
@@ -44,6 +69,28 @@ jobs:
           sed -i "s/{{REPOS}}/$REPOS/g" README.md
           sed -i "s/{{HOURS}}/$HOURS/g" README.md
           sed -i "s/{{DAILY_MESSAGE}}/$MESSAGE/g" README.md
+
+          # 🔥 NUEVOS REEMPLAZOS (EXPANSIÓN)
+          sed -i "s/{{LATENCY}}/$LATENCY/g" README.md
+          sed -i "s/{{CPU_LOAD}}/$CPU/g" README.md
+          sed -i "s/{{MEMORY_USAGE}}/$MEMORY/g" README.md
+          sed -i "s/{{SECURITY_LEVEL}}/$SECURITY/g" README.md
+          sed -i "s/{{THREAT_LEVEL}}/$THREAT/g" README.md
+          sed -i "s/{{TREND}}/$TREND/g" README.md
+          sed -i "s/{{STREAK}}/$STREAK/g" README.md
+
+          sed -i "s/{{AI_STATUS}}/$AI_STATUS/g" README.md
+          sed -i "s/{{AUTOMATION_STATUS}}/$AUTO_STATUS/g" README.md
+          sed -i "s/{{SECURITY_STATUS}}/$SEC_STATUS/g" README.md
+          sed -i "s/{{NETWORK_STATUS}}/$NET_STATUS/g" README.md
+          sed -i "s/{{EVOLUTION_STAGE}}/$EVOLUTION/g" README.md
+
+          sed -i "s/{{TIMEZONE}}/$TIMEZONE/g" README.md
+          sed -i "s/{{CURRENT_TIME}}/$CURRENT_TIME/g" README.md
+          sed -i "s/{{WEATHER}}/$WEATHER/g" README.md
+
+          # ⚠️ IMPORTANTE: multilinea
+          awk -v events="$EVENTS" '{gsub(/{{SYSTEM_EVENTS}}/, events)}1' README.md > tmp && mv tmp README.md
 
       - name: Commit automático (SIN ERROR)
         uses: stefanzweifel/git-auto-commit-action@v5
