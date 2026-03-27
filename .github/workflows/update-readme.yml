@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+# 🔥 COMPATIBILIDAD FUTURA (Node 24)
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -24,9 +28,10 @@ jobs:
       - name: Ejecutar sistema (Python)
         run: python scripts/generate_readme.py
 
-      - name: Commit automático (FIX TOTAL)
+      # 💀 FIX REAL SIN ROMPER NADA
+      - name: Commit automático (FIX TOTAL PRO)
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "⚡ auto-update system"
           file_pattern: .
-          pull: true
+          push_options: '--force'
