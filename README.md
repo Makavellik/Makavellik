@@ -24,7 +24,7 @@
          style="color:#00ffff; text-decoration:none; transition:0.3s; text-shadow:0 0 4px #00ffff;"
          onmouseover="this.style.color='#ffffff'; this.style.textShadow='0 0 12px #00ffff';"
          onmouseout="this.style.color='#00ffff'; this.style.textShadow='0 0 4px #00ffff';">
-         ▶ osint-core
+         ▶ OsintInverso
       </a>
     </li>
     <li style="margin:10px 0;">
@@ -32,7 +32,7 @@
          style="color:#00ffff; text-decoration:none; transition:0.3s; text-shadow:0 0 4px #00ffff;"
          onmouseover="this.style.color='#ffffff'; this.style.textShadow='0 0 12px #00ffff';"
          onmouseout="this.style.color='#00ffff'; this.style.textShadow='0 0 4px #00ffff';">
-         ▶ neural-scanner
+         ▶ Observador-X-Ray
       </a>
     </li>
     <li style="margin:10px 0;">
@@ -40,7 +40,7 @@
          style="color:#00ffff; text-decoration:none; transition:0.3s; text-shadow:0 0 4px #00ffff;"
          onmouseover="this.style.color='#ffffff'; this.style.textShadow='0 0 12px #00ffff';"
          onmouseout="this.style.color='#00ffff'; this.style.textShadow='0 0 4px #00ffff';">
-         ▶ stealth-engine
+         ▶ OsintSignalsF
       </a>
     </li>
     <li style="margin:10px 0;">
@@ -48,7 +48,7 @@
          style="color:#00ffff; text-decoration:none; transition:0.3s; text-shadow:0 0 4px #00ffff;"
          onmouseover="this.style.color='#ffffff'; this.style.textShadow='0 0 12px #00ffff';"
          onmouseout="this.style.color='#00ffff'; this.style.textShadow='0 0 4px #00ffff';">
-         ▶ ai-defense-system
+         ▶ DnSAnalizadorIT
       </a>
     </li>
     <li style="margin:10px 0;">
@@ -56,7 +56,7 @@
          style="color:#00ffff; text-decoration:none; transition:0.3s; text-shadow:0 0 4px #00ffff;"
          onmouseover="this.style.color='#ffffff'; this.style.textShadow='0 0 12px #00ffff';"
          onmouseout="this.style.color='#00ffff'; this.style.textShadow='0 0 4px #00ffff';">
-         ▶ ai-defense-system
+         ▶ SENTINELA-v2-Vigilancia
       </a>
     </li>
   </ul>
@@ -176,11 +176,11 @@ TARGET LOCKED • SIGNAL STABLE • SCANNING... </text>
 # 🧠 ESTADO DEL SISTEMA
 
 ```txt
-🟢 Estado: STEALTH
-🕒 Última actualización: 2026-03-27 07:00:03
+🟢 Estado: ONLINE
+🕒 Última actualización: 2026-03-27 07:03:01
 ⚡ Actividad: ALTA
-🌐 Nodo: 7608
-🧬 Versión: v1.8
+🌐 Nodo: 7962
+🧬 Versión: v1.1
 ```
 
 ---
@@ -188,10 +188,10 @@ TARGET LOCKED • SIGNAL STABLE • SCANNING... </text>
 # ⚙️ TELEMETRÍA EN TIEMPO REAL
 
 ```txt
-📡 Latencia: 118 ms
-🧠 Carga cognitiva: 39 %
-💾 Memoria activa: 91 %
-🔐 Seguridad: LOW
+📡 Latencia: 59 ms
+🧠 Carga cognitiva: 27 %
+💾 Memoria activa: 20 %
+🔐 Seguridad: MEDIUM
 ⚠️ Riesgo: STABLE
 ```
 
@@ -200,11 +200,11 @@ TARGET LOCKED • SIGNAL STABLE • SCANNING... </text>
 # 📊 ACTIVIDAD
 
 ```txt
-💻 Commits: 4
-📦 Repos: 4
-🧠 Tiempo activo: 8 hrs
-📈 Tendencia: DOWN
-🔥 Racha: 29
+💻 Commits: 10
+📦 Repos: 3
+🧠 Tiempo activo: 10 hrs
+📈 Tendencia: STABLE
+🔥 Racha: 20
 ```
 
 ---
@@ -212,7 +212,7 @@ TARGET LOCKED • SIGNAL STABLE • SCANNING... </text>
 # 🧬 MENSAJE DEL SISTEMA
 
 ```txt
-Expansión en proceso...
+Conciencia adaptativa activa...
 ```
 
 ---
@@ -241,10 +241,10 @@ Expansión en proceso...
 # 🔐 ESTADO DE MÓDULOS
 
 ```txt
-🧠 IA Central .............. LEARNING
+🧠 IA Central .............. OPTIMIZING
 ⚙️ Automatización .......... RUNNING
-🛡️ Seguridad ............... MONITORING
-📡 Red ..................... STABLE
+🛡️ Seguridad ............... SECURE
+📡 Red ..................... LATENT
 🧬 Evolución ............... EXPANDING
 ```
 
@@ -254,8 +254,8 @@ Expansión en proceso...
 
 ```txt
 🌍 Zona: UTC
-⏱️ Hora del sistema: 07:00:03
-🌡️ Clima: UNKNOWN
+⏱️ Hora del sistema: 07:03:01
+🌡️ Clima: CLOUDY
 ```
 
 ---
