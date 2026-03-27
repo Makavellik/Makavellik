@@ -169,6 +169,78 @@ def generate_ultra_hud(data):
 </svg>
 """
 
+def generate_identity_banner(data):
+    name = "WILLIAM AYALA"
+
+    return f"""
+<svg width="900" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg">
+
+<style>
+  .bg {{
+    fill: #05070d;
+  }}
+
+  .title {{
+    font-family: 'Orbitron', monospace;
+    font-size: 34px;
+    fill: #00ffff;
+    letter-spacing: 3px;
+  }}
+
+  .subtitle {{
+    font-family: monospace;
+    font-size: 14px;
+    fill: #00ffff;
+    opacity: 0.7;
+  }}
+
+  .glow {{
+    filter: drop-shadow(0 0 8px #00ffff);
+  }}
+
+  .line {{
+    stroke: #00ffff;
+    stroke-width: 1;
+    stroke-dasharray: 4;
+    opacity: 0.4;
+  }}
+</style>
+
+<!-- Fondo -->
+<rect width="100%" height="100%" class="bg"/>
+
+<!-- Líneas animadas -->
+<line x1="0" y1="40" x2="900" y2="40" class="line">
+  <animate attributeName="x2" from="0" to="900" dur="2s" repeatCount="indefinite"/>
+</line>
+
+<line x1="0" y1="180" x2="900" y2="180" class="line">
+  <animate attributeName="x2" from="0" to="900" dur="3s" repeatCount="indefinite"/>
+</line>
+
+<!-- Nombre -->
+<text x="50%" y="90" text-anchor="middle" class="title glow">
+  {name}
+  <animate attributeName="opacity" values="0;1;1" dur="2s"/>
+</text>
+
+<!-- Estado IA -->
+<text x="50%" y="120" text-anchor="middle" class="subtitle">
+  ⚡ AI SYSTEM ACTIVE • {data["AI_STATUS"]}
+</text>
+
+<!-- Datos -->
+<text x="50%" y="145" text-anchor="middle" class="subtitle">
+  🧠 CPU: {data["CPU_LOAD"]}% • 💾 MEM: {data["MEMORY_USAGE"]}% • 📡 LAT: {data["LATENCY"]}ms
+</text>
+
+<!-- Redes -->
+<text x="50%" y="175" text-anchor="middle" class="subtitle">
+  🌐 GitHub: Makavellik • ⚡ OSINT • 🛡️ Cyber Intelligence
+</text>
+
+</svg>
+"""
 
 # =========================================================
 # 💾 SAVE HUD
@@ -176,7 +248,11 @@ def generate_ultra_hud(data):
 def save_hud(svg):
     with open("hud.svg", "w") as f:
         f.write(svg)
+        
+banner = generate_identity_banner(data)
 
+with open("banner.svg", "w") as f:
+    f.write(banner)
 
 # =========================================================
 # 🚀 MAIN
