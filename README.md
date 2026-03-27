@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="hud.svg" />
+</p>
+
 <!-- ☠️ MILITARY HUD NEON SYSTEM -->
 
 <p align="center">
@@ -110,9 +114,9 @@ TARGET LOCKED • SIGNAL STABLE • SCANNING... </text>
 
 ```txt
 🟢 Estado: ACTIVE
-🕒 Última actualización: Fri Mar 27 00:49:57 UTC 2026
-⚡ Actividad: INTENSA
-🌐 Nodo: 24527
+🕒 Última actualización: Fri Mar 27 01:50:04 UTC 2026
+⚡ Actividad: MEDIA
+🌐 Nodo: 12221
 🧬 Versión: {{SYSTEM_VERSION}}
 ```
 
@@ -133,8 +137,8 @@ TARGET LOCKED • SIGNAL STABLE • SCANNING... </text>
 # 📊 ACTIVIDAD
 
 ```txt
-💻 Commits: 9
-📦 Repos: 1
+💻 Commits: 7
+📦 Repos: 2
 🧠 Tiempo activo: 8 hrs
 📈 Tendencia: {{TREND}}
 🔥 Racha: {{STREAK}}
@@ -145,7 +149,7 @@ TARGET LOCKED • SIGNAL STABLE • SCANNING... </text>
 # 🧬 MENSAJE DEL SISTEMA
 
 ```txt
-Nueva capa cargada...
+El sistema evoluciona...
 ```
 
 ---
