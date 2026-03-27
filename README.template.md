@@ -217,3 +217,65 @@ WILLIAM CORE ⚡ </text> </svg>
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FFF7,100:00FFAA&height=120&section=footer" />
 </p>
 
+<!-- 🧠 NEURAL SIGNATURE PROTOCOL -->
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=16&pause=1600&color=8AF5FF&center=true&vCenter=true&width=700&lines=OPERATING+IN+SILENCE...;PROCESSING+WITHOUT+TRACE...;DESIGNED+FOR+SYSTEMIC+UNDERSTANDING" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/IDENTITY-WilliamAyalaCore-0f172a?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/MODE-INTELLIGENT%20SYSTEMS-1f2937?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/FOCUS-ADAPTIVE%20ANALYSIS-334155?style=for-the-badge" />
+</p>
+
+<p align="center">
+✦ « No observo datos… interpreto sistemas. » ✦
+</p>
+
+---
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=20&pause=1400&color=00FFF7&center=true&vCenter=true&width=800&lines=SYSTEMS+GENERATE+SIGNALS...;SIGNALS+REVEAL+PATTERNS;PATTERNS+EXPOSE+INTENT;INTENT+DEFINES+STRUCTURE" />
+</p>
+
+<p align="center">
+  <sub>No recolecto información. Extraigo significado.</sub>
+</p>
+
+---
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=16&pause=1000&color=00FFAA&center=true&vCenter=true&width=750&lines=ANALYZING+STRUCTURES...;DETECTING+BEHAVIOR...;MODELING+DECISIONS...;ANTICIPATING+OUTCOMES" />
+</p>
+
+<p align="center">
+  🧠 Estructura · 🔍 Comportamiento · ⚡ Decisión · ⏳ Evolución
+</p>
+
+---
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Roboto+Mono&size=17&pause=1200&color=00D1FF&center=true&vCenter=true&width=750&lines=NO+NOISE...;NO+FORCE...;NO+EXCESS...;ONLY+PRECISION" />
+</p>
+
+<p align="center">
+  <sub>Precisión como principio operativo.</sub>
+</p>
+
+---
+
+<p align="center">
+  <img src="https://img.shields.io/badge/SYSTEM-ADAPTIVE-00FFF7?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/LOGIC-STRUCTURAL-00FFAA?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/MODEL-COGNITIVE-38bdf8?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/STATE-EVOLVING-22c55e?style=for-the-badge" />
+</p>
+
+---
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=14&pause=1800&color=64748b&center=true&vCenter=true&width=700&lines=SIGNAL+STABLE...;SYSTEM+ALIVE...;EVOLUTION+CONTINUES..." />
+</p>
+
+
