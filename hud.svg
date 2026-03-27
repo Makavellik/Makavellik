@@ -1,0 +1,51 @@
+
+<svg width="420" height="420" viewBox="0 0 420 420" xmlns="http://www.w3.org/2000/svg">
+
+<style>
+  .bg { fill: #05070d; }
+  .grid { stroke: #0ff; stroke-opacity: 0.15; }
+  .radar { stroke: #00ffff; stroke-width: 2; fill: none; }
+  .pulse { fill: #00ffff; opacity: 0.7; }
+  .text { fill: #00ffff; font-family: monospace; font-size: 12px; }
+</style>
+
+<!-- Fondo -->
+<rect width="100%" height="100%" class="bg"/>
+
+<!-- Círculos radar -->
+<circle cx="210" cy="210" r="50" class="grid"/>
+<circle cx="210" cy="210" r="100" class="grid"/>
+<circle cx="210" cy="210" r="150" class="grid"/>
+
+<!-- Líneas -->
+<line x1="210" y1="0" x2="210" y2="420" class="grid"/>
+<line x1="0" y1="210" x2="420" y2="210" class="grid"/>
+
+<!-- Sweep (barrido radar) -->
+<line x1="210" y1="210" x2="210" y2="60" stroke="#00ffff" stroke-width="2">
+  <animateTransform attributeName="transform"
+    type="rotate"
+    from="0 210 210"
+    to="360 210 210"
+    dur="2s"
+    repeatCount="indefinite"/>
+</line>
+
+<!-- Punto objetivo -->
+<circle cx="211" cy="212" r="4" class="pulse">
+  <animate attributeName="r" values="4;8;4" dur="1s" repeatCount="indefinite"/>
+</circle>
+
+<!-- HUD TEXT -->
+<text x="10" y="20" class="text">LATENCY: 107 ms</text>
+<text x="10" y="40" class="text">CPU: 26%</text>
+<text x="10" y="60" class="text">MEM: 22%</text>
+<text x="10" y="80" class="text">SEC: LOW</text>
+<text x="10" y="100" class="text">THREAT: CRITICAL</text>
+
+<!-- Estado central -->
+<text x="210" y="215" text-anchor="middle" class="text">
+  SYSTEM ACTIVE
+</text>
+
+</svg>

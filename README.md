@@ -2,6 +2,10 @@
   <img src="hud.svg" />
 </p>
 
+<p align="center">
+  <img src="./hud.svg" />
+</p>
+
 <!-- ☠️ MILITARY HUD NEON SYSTEM -->
 
 <p align="center">
@@ -113,10 +117,10 @@ TARGET LOCKED • SIGNAL STABLE • SCANNING... </text>
 # 🧠 ESTADO DEL SISTEMA
 
 ```txt
-🟢 Estado: STEALTH
-🕒 Última actualización: Fri Mar 27 02:49:15 UTC 2026
-⚡ Actividad: INTENSA
-🌐 Nodo: 17522
+🟢 Estado: {{STATUS}}
+🕒 Última actualización: {{LAST_UPDATE}}
+⚡ Actividad: {{ACTIVITY_LEVEL}}
+🌐 Nodo: {{NODE_ID}}
 🧬 Versión: {{SYSTEM_VERSION}}
 ```
 
@@ -125,11 +129,11 @@ TARGET LOCKED • SIGNAL STABLE • SCANNING... </text>
 # ⚙️ TELEMETRÍA EN TIEMPO REAL
 
 ```txt
-📡 Latencia: {{LATENCY}} ms
-🧠 Carga cognitiva: {{CPU_LOAD}} %
-💾 Memoria activa: {{MEMORY_USAGE}} %
-🔐 Seguridad: {{SECURITY_LEVEL}}
-⚠️ Riesgo: {{THREAT_LEVEL}}
+📡 Latencia: 107 ms
+🧠 Carga cognitiva: 26 %
+💾 Memoria activa: 22 %
+🔐 Seguridad: LOW
+⚠️ Riesgo: CRITICAL
 ```
 
 ---
@@ -137,11 +141,11 @@ TARGET LOCKED • SIGNAL STABLE • SCANNING... </text>
 # 📊 ACTIVIDAD
 
 ```txt
-💻 Commits: 10
-📦 Repos: 2
-🧠 Tiempo activo: 5 hrs
-📈 Tendencia: {{TREND}}
-🔥 Racha: {{STREAK}}
+💻 Commits: {{COMMITS}}
+📦 Repos: {{REPOS}}
+🧠 Tiempo activo: {{HOURS}} hrs
+📈 Tendencia: STABLE
+🔥 Racha: 8
 ```
 
 ---
@@ -149,7 +153,7 @@ TARGET LOCKED • SIGNAL STABLE • SCANNING... </text>
 # 🧬 MENSAJE DEL SISTEMA
 
 ```txt
-Nueva capa cargada...
+{{DAILY_MESSAGE}}
 ```
 
 ---
@@ -157,7 +161,9 @@ Nueva capa cargada...
 # ⚡ EVENTOS DEL SISTEMA
 
 ```txt
-{{SYSTEM_EVENTS}}
+[SYS] Scan complete
+[AI] Pattern detected
+[NET] Stable connection
 ```
 
 ---
@@ -176,11 +182,11 @@ Nueva capa cargada...
 # 🔐 ESTADO DE MÓDULOS
 
 ```txt
-🧠 IA Central .............. {{AI_STATUS}}
-⚙️ Automatización .......... {{AUTOMATION_STATUS}}
-🛡️ Seguridad ............... {{SECURITY_STATUS}}
-📡 Red ..................... {{NETWORK_STATUS}}
-🧬 Evolución ............... {{EVOLUTION_STAGE}}
+🧠 IA Central .............. ACTIVE
+⚙️ Automatización .......... IDLE
+🛡️ Seguridad ............... MONITORING
+📡 Red ..................... STABLE
+🧬 Evolución ............... PHASE 2
 ```
 
 ---
@@ -188,9 +194,9 @@ Nueva capa cargada...
 # 🌐 ENTORNO
 
 ```txt
-🌍 Zona: {{TIMEZONE}}
-⏱️ Hora del sistema: {{CURRENT_TIME}}
-🌡️ Clima: {{WEATHER}}
+🌍 Zona: UTC
+⏱️ Hora del sistema: 03:54:20
+🌡️ Clima: UNKNOWN
 ```
 
 ---
