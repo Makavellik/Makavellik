@@ -12,12 +12,12 @@ jobs:
   update:
     runs-on: ubuntu-latest
 
-    steps:
-      - name: Ejecutar script
-        run: scripts/generate_readme.py
-        
+    steps:        
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Ejecutar script
+        run: scripts/generate_readme.py
 
       - name: Generar README
         run: |
