@@ -24,7 +24,7 @@
          style="color:#00ffff; text-decoration:none; transition:0.3s; text-shadow:0 0 4px #00ffff;"
          onmouseover="this.style.color='#ffffff'; this.style.textShadow='0 0 12px #00ffff';"
          onmouseout="this.style.color='#00ffff'; this.style.textShadow='0 0 4px #00ffff';">
-         ▶ osint-core
+         ▶ OsintInverso
       </a>
     </li>
     <li style="margin:10px 0;">
@@ -32,7 +32,7 @@
          style="color:#00ffff; text-decoration:none; transition:0.3s; text-shadow:0 0 4px #00ffff;"
          onmouseover="this.style.color='#ffffff'; this.style.textShadow='0 0 12px #00ffff';"
          onmouseout="this.style.color='#00ffff'; this.style.textShadow='0 0 4px #00ffff';">
-         ▶ neural-scanner
+         ▶ Observador-X-Ray
       </a>
     </li>
     <li style="margin:10px 0;">
@@ -40,7 +40,7 @@
          style="color:#00ffff; text-decoration:none; transition:0.3s; text-shadow:0 0 4px #00ffff;"
          onmouseover="this.style.color='#ffffff'; this.style.textShadow='0 0 12px #00ffff';"
          onmouseout="this.style.color='#00ffff'; this.style.textShadow='0 0 4px #00ffff';">
-         ▶ stealth-engine
+         ▶ OsintSignalsF
       </a>
     </li>
     <li style="margin:10px 0;">
@@ -48,7 +48,7 @@
          style="color:#00ffff; text-decoration:none; transition:0.3s; text-shadow:0 0 4px #00ffff;"
          onmouseover="this.style.color='#ffffff'; this.style.textShadow='0 0 12px #00ffff';"
          onmouseout="this.style.color='#00ffff'; this.style.textShadow='0 0 4px #00ffff';">
-         ▶ ai-defense-system
+         ▶ DnSAnalizadorIT
       </a>
     </li>
     <li style="margin:10px 0;">
@@ -56,7 +56,7 @@
          style="color:#00ffff; text-decoration:none; transition:0.3s; text-shadow:0 0 4px #00ffff;"
          onmouseover="this.style.color='#ffffff'; this.style.textShadow='0 0 12px #00ffff';"
          onmouseout="this.style.color='#00ffff'; this.style.textShadow='0 0 4px #00ffff';">
-         ▶ ai-defense-system
+         ▶ SENTINELA-v2-Vigilancia
       </a>
     </li>
   </ul>
