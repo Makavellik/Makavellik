@@ -13,6 +13,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Ejecutar script
+        run: python scripts/generate_readme.py
+        
       - name: Checkout
         uses: actions/checkout@v4
 
