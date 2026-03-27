@@ -24,7 +24,7 @@
 
 <!-- Repos clickeables -->
 
-    <a href="https://github.com/Makavellik/osint-core" target="_blank">
+    <a href="https://github.com/Makavellik/OsintInverso" target="_blank">
       <text x="40" y="90" class="repo glow">
         ▶ osint-core
         <animate attributeName="opacity"
@@ -35,7 +35,7 @@
       </text>
     </a>
     
-    <a href="https://github.com/Makavellik/neural-scanner" target="_blank">
+    <a href="https://github.com/Makavellik/Observador-X-Ray" target="_blank">
       <text x="40" y="130" class="repo glow">
         ▶ neural-scanner
         <animate attributeName="opacity"
@@ -46,7 +46,7 @@
       </text>
     </a>
     
-    <a href="https://github.com/Makavellik/stealth-engine" target="_blank">
+    <a href="https://github.com/Makavellik/OsintSignalsF" target="_blank">
       <text x="40" y="170" class="repo glow">
         ▶ stealth-engine
         <animate attributeName="opacity"
@@ -57,13 +57,24 @@
       </text>
     </a>
     
-    <a href="https://github.com/Makavellik/ai-defense-system" target="_blank">
+    <a href="https://github.com/Makavellik/DnSAnalizadorIT" target="_blank">
       <text x="40" y="210" class="repo glow">
         ▶ ai-defense-system
         <animate attributeName="opacity"
                  values="0;1"
                  dur="1s"
                  begin="0.8999999999999999s"
+                 fill="freeze"/>
+      </text>
+    </a>
+    
+    <a href="https://github.com/Makavellik/SENTINELA-v2-Vigilancia-Total" target="_blank">
+      <text x="40" y="250" class="repo glow">
+        ▶ ai-defense-system
+        <animate attributeName="opacity"
+                 values="0;1"
+                 dur="1s"
+                 begin="1.2s"
                  fill="freeze"/>
       </text>
     </a>
