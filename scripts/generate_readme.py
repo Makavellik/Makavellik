@@ -249,10 +249,6 @@ def save_hud(svg):
     with open("hud.svg", "w") as f:
         f.write(svg)
         
-banner = generate_identity_banner(data)
-
-with open("banner.svg", "w") as f:
-    f.write(banner)
 
 # =========================================================
 # 🚀 MAIN
@@ -266,6 +262,11 @@ def main():
 
     svg = generate_ultra_hud(data)
     save_hud(svg)
+    
+    # Add these lines here
+    banner = generate_identity_banner(data)
+    with open("banner.svg", "w") as f:
+        f.write(banner)
 
     print("✅ README y HUD generados correctamente")
 
