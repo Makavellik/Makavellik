@@ -36,3 +36,38 @@ for key, value in data.items():
 # 📤 escribir README final
 with open("README.md", "w", encoding="utf-8") as f:
     f.write(template)
+
+
+
+svg = f"""
+<svg width="400" height="100" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .text {{
+      font-family: monospace;
+      font-size: 16px;
+      fill: #00ffff;
+    }}
+  </style>
+
+  <rect width="100%" height="100%" fill="black"/>
+
+  <text x="10" y="30" class="text">
+    LATENCY: {data["LATENCY"]} ms
+  </text>
+
+  <text x="10" y="55" class="text">
+    CPU: {data["CPU_LOAD"]}%
+  </text>
+
+  <text x="10" y="80" class="text">
+    STATUS: {data["SECURITY_LEVEL"]}
+  </text>
+
+  <circle cx="350" cy="50" r="10" fill="cyan">
+    <animate attributeName="r" values="10;15;10" dur="1s" repeatCount="indefinite"/>
+  </circle>
+</svg>
+"""
+
+with open("hud.svg", "w") as f:
+    f.write(svg)
