@@ -52,12 +52,12 @@
 
 <!-- Estado IA -->
 <text x="50%" y="120" text-anchor="middle" class="subtitle">
-  ⚡ AI SYSTEM ACTIVE • LEARNING
+  ⚡ AI SYSTEM ACTIVE • ACTIVE
 </text>
 
 <!-- Datos -->
 <text x="50%" y="145" text-anchor="middle" class="subtitle">
-  🧠 CPU: 38% • 💾 MEM: 22% • 📡 LAT: 24ms
+  🧠 CPU: 17% • 💾 MEM: 76% • 📡 LAT: 68ms
 </text>
 
 <!-- Redes -->
