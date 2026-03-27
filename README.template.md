@@ -12,6 +12,59 @@
 <p align="center">
   <img src="./repos_clickable.svg" />
 </p>
+
+<div align="center" style="background:#04060a; padding:20px; border-radius:12px; font-family: monospace; color:#00ffff; box-shadow: 0 0 20px #00ffff;">
+  <h2 style="color:#00ffff; text-shadow:0 0 8px #00ffff; margin-bottom:15px;">
+    ⚡ TACTICAL REPOSITORY ACCESS
+  </h2>
+
+  <ul style="list-style:none; padding-left:0; margin:0; font-size:16px;">
+    <li style="margin:10px 0;">
+      <a href="https://github.com/Makavellik/OsintInverso" target="_blank" 
+         style="color:#00ffff; text-decoration:none; transition:0.3s; text-shadow:0 0 4px #00ffff;"
+         onmouseover="this.style.color='#ffffff'; this.style.textShadow='0 0 12px #00ffff';"
+         onmouseout="this.style.color='#00ffff'; this.style.textShadow='0 0 4px #00ffff';">
+         ▶ osint-core
+      </a>
+    </li>
+    <li style="margin:10px 0;">
+      <a href="https://github.com/Makavellik/Observador-X-Ray" target="_blank" 
+         style="color:#00ffff; text-decoration:none; transition:0.3s; text-shadow:0 0 4px #00ffff;"
+         onmouseover="this.style.color='#ffffff'; this.style.textShadow='0 0 12px #00ffff';"
+         onmouseout="this.style.color='#00ffff'; this.style.textShadow='0 0 4px #00ffff';">
+         ▶ neural-scanner
+      </a>
+    </li>
+    <li style="margin:10px 0;">
+      <a href="https://github.com/Makavellik/OsintSignalsF" target="_blank" 
+         style="color:#00ffff; text-decoration:none; transition:0.3s; text-shadow:0 0 4px #00ffff;"
+         onmouseover="this.style.color='#ffffff'; this.style.textShadow='0 0 12px #00ffff';"
+         onmouseout="this.style.color='#00ffff'; this.style.textShadow='0 0 4px #00ffff';">
+         ▶ stealth-engine
+      </a>
+    </li>
+    <li style="margin:10px 0;">
+      <a href="https://github.com/Makavellik/DnSAnalizadorIT" target="_blank" 
+         style="color:#00ffff; text-decoration:none; transition:0.3s; text-shadow:0 0 4px #00ffff;"
+         onmouseover="this.style.color='#ffffff'; this.style.textShadow='0 0 12px #00ffff';"
+         onmouseout="this.style.color='#00ffff'; this.style.textShadow='0 0 4px #00ffff';">
+         ▶ ai-defense-system
+      </a>
+    </li>
+    <li style="margin:10px 0;">
+      <a href="https://github.com/Makavellik/SENTINELA-v2-Vigilancia-Total" target="_blank" 
+         style="color:#00ffff; text-decoration:none; transition:0.3s; text-shadow:0 0 4px #00ffff;"
+         onmouseover="this.style.color='#ffffff'; this.style.textShadow='0 0 12px #00ffff';"
+         onmouseout="this.style.color='#00ffff'; this.style.textShadow='0 0 4px #00ffff';">
+         ▶ ai-defense-system
+      </a>
+    </li>
+  </ul>
+
+  <p style="margin-top:20px; color:#00ffff; text-shadow:0 0 6px #00ffff; font-size:14px;">
+    🔒 Stay Tactical. ⚡
+  </p>
+</div>
 <!-- ☠️ MILITARY HUD NEON SYSTEM -->
 
 <p align="center">
