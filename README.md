@@ -1,8 +1,110 @@
 <p align="center">
-  <img src="./hud.svg" />
-</p>
-<p align="center">
   <img src="./banner.svg" />
+</p>
+
+<div align="center">
+
+<!-- HEADER -->
+
+<div style="background: radial-gradient(circle at top, #0f0f0f, #050505); padding:30px; border-radius:16px; border:1px solid #1a1a1a; box-shadow: 0 0 40px rgba(0,255,225,0.08);">
+
+<h1 style="color:#00ffe1; font-size:2.2em; text-shadow:0 0 12px #00ffe1, 0 0 25px rgba(0,255,225,0.5);">
+💀 New Era · OSINT & Forensic Architect 💀
+</h1>
+
+<h3 style="color:#ff6ec7; text-shadow:0 0 10px #ff6ec7;">
+🔍 Explorador Digital · Defensor Forense · Arquitecto de Señales
+</h3>
+
+<p style="color:#b8b8b8; max-width:650px; margin:auto; line-height:1.6;">
+Analista de infraestructura, comportamiento y seguridad web.<br>
+Fusionando observación pasiva, inteligencia quirúrgica y técnicas defensivas avanzadas.<br><br>
+<span style="color:#00ffe1;">No intrusión.</span> 
+<span style="color:#ff6ec7;">No destrucción.</span> 
+<span style="color:#ffffff;">Solo visión y control.</span>
+</p>
+
+</div>
+
+</div>
+
+---
+
+## 🧠 Filosofía
+
+<div align="center">
+
+> <span style="color:#00ffe1; font-size:1.1em;">
+
+“Observar, correlacionar y entender.
+Sin explotar, sin ruido, solo señal pura.” </span>
+
+</div>
+
+<br>
+
+```diff
++ Análisis pasivo y seguro de infraestructuras digitales
++ Observación consciente de backend y frontend
++ Heurística avanzada para riesgos, phishing y fraude web
++ OSINT forense con interpretación quirúrgica de señales
+```
+
+---
+<br>
+
+<div align="center">
+
+<span style="color:#ff6ec7; text-shadow:0 0 8px #ff6ec7;">
+⚡ Todas las herramientas siguen un mismo principio:
+</span><br><br>
+
+<span style="color:#00ffe1;">Observación consciente</span> · <span style="color:#ffffff;">Análisis defensivo</span> · <span style="color:#ff6ec7;">Precisión quirúrgica</span>
+
+</div>
+
+---
+
+## 💡 Especialidades
+
+```yaml
+- OSINT Forense Avanzado:
+    Extracción de información sin dejar huella
+
+- Análisis de Infraestructura:
+    Mapas de red, endpoints y comportamiento de sistemas
+
+- Seguridad y Auditoría:
+    Evaluación pasiva de vulnerabilidades
+
+- Interpretación de Señales:
+    Correlación avanzada backend + frontend
+```
+
+---
+
+## 🔗 Contacto Digital
+
+<div align="center">
+
+🌐 GitHub → https://github.com/Makavellik
+📡 Telegram → @DonMakveliw
+
+</div>
+
+---
+
+<div align="center">
+
+<h2 style="color:#ff6ec7; text-shadow:0 0 12px #ff6ec7, 0 0 25px rgba(255,110,199,0.6);">
+💥 Observa · Analiza · Domina 💥
+</h2>
+
+</div>
+
+
+<p align="center">
+  <img src="./hud.svg" />
 </p>
 
 <p align="center">
@@ -177,10 +279,10 @@ TARGET LOCKED • SIGNAL STABLE • SCANNING... </text>
 
 ```txt
 🟢 Estado: ONLINE
-🕒 Última actualización: 2026-03-27 07:03:01
+🕒 Última actualización: 2026-03-27 17:00:31
 ⚡ Actividad: ALTA
-🌐 Nodo: 7962
-🧬 Versión: v1.1
+🌐 Nodo: 3384
+🧬 Versión: v2.2
 ```
 
 ---
@@ -188,11 +290,11 @@ TARGET LOCKED • SIGNAL STABLE • SCANNING... </text>
 # ⚙️ TELEMETRÍA EN TIEMPO REAL
 
 ```txt
-📡 Latencia: 59 ms
-🧠 Carga cognitiva: 27 %
-💾 Memoria activa: 20 %
+📡 Latencia: 32 ms
+🧠 Carga cognitiva: 30 %
+💾 Memoria activa: 94 %
 🔐 Seguridad: MEDIUM
-⚠️ Riesgo: STABLE
+⚠️ Riesgo: ELEVATED
 ```
 
 ---
@@ -200,11 +302,11 @@ TARGET LOCKED • SIGNAL STABLE • SCANNING... </text>
 # 📊 ACTIVIDAD
 
 ```txt
-💻 Commits: 10
-📦 Repos: 3
-🧠 Tiempo activo: 10 hrs
+💻 Commits: 9
+📦 Repos: 1
+🧠 Tiempo activo: 12 hrs
 📈 Tendencia: STABLE
-🔥 Racha: 20
+🔥 Racha: 27
 ```
 
 ---
@@ -212,7 +314,7 @@ TARGET LOCKED • SIGNAL STABLE • SCANNING... </text>
 # 🧬 MENSAJE DEL SISTEMA
 
 ```txt
-Conciencia adaptativa activa...
+Expansión en proceso...
 ```
 
 ---
@@ -241,11 +343,11 @@ Conciencia adaptativa activa...
 # 🔐 ESTADO DE MÓDULOS
 
 ```txt
-🧠 IA Central .............. OPTIMIZING
-⚙️ Automatización .......... RUNNING
-🛡️ Seguridad ............... SECURE
-📡 Red ..................... LATENT
-🧬 Evolución ............... EXPANDING
+🧠 IA Central .............. ACTIVE
+⚙️ Automatización .......... IDLE
+🛡️ Seguridad ............... MONITORING
+📡 Red ..................... STABLE
+🧬 Evolución ............... PHASE 2
 ```
 
 ---
@@ -254,8 +356,8 @@ Conciencia adaptativa activa...
 
 ```txt
 🌍 Zona: UTC
-⏱️ Hora del sistema: 07:03:01
-🌡️ Clima: CLOUDY
+⏱️ Hora del sistema: 17:00:31
+🌡️ Clima: CLEAR
 ```
 
 ---
