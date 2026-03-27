@@ -12,11 +12,11 @@ def load_template():
 
 def generate_clickable_repos():
     repos = [
-        ("osint-core", "https://github.com/Makavellik/OsintInverso"),
-        ("neural-scanner", "https://github.com/Makavellik/Observador-X-Ray"),
-        ("stealth-engine", "https://github.com/Makavellik/OsintSignalsF"),
-        ("ai-defense-system", "https://github.com/Makavellik/DnSAnalizadorIT"),
-        ("ai-defense-system", "https://github.com/Makavellik/SENTINELA-v2-Vigilancia-Total"),
+        ("OsintInverso", "https://github.com/Makavellik/OsintInverso"),
+        ("Observador-X-Ray", "https://github.com/Makavellik/Observador-X-Ray"),
+        ("OsintSignalsF", "https://github.com/Makavellik/OsintSignalsF"),
+        ("DnSAnalizadorIT", "https://github.com/Makavellik/DnSAnalizadorIT"),
+        ("SENTINELA-v2", "https://github.com/Makavellik/SENTINELA-v2-Vigilancia-Total"),
     ]
 
     return f"""
