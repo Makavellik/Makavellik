@@ -1,4 +1,5 @@
 import random
+import requests
 from datetime import datetime
 
 
@@ -9,6 +10,93 @@ def load_template():
     with open("README.template.md", "r", encoding="utf-8") as f:
         return f.read()
 
+
+def fetch_repos(username):
+    url = f"https://api.github.com/users/{username}/repos"
+    try:
+        response = requests.get(url, timeout=10)
+        return response.json()
+    except:
+        return []
+
+def analyze_repos(repos):
+    if not repos or isinstance(repos, dict):
+        return {
+            "top_lang": "UNKNOWN",
+            "total_repos": 0,
+            "activity": "LOW"
+        }
+
+    languages = {}
+    
+    for repo in repos:
+        lang = repo.get("language") or "UNKNOWN"
+        languages[lang] = languages.get(lang, 0) + 1
+
+    top_lang = max(languages, key=languages.get)
+
+    total = len(repos)
+
+    if total > 10:
+        activity = "HIGH"
+    elif total > 5:
+        activity = "MEDIUM"
+    else:
+        activity = "LOW"
+
+    return {
+        "top_lang": top_lang,
+        "total_repos": total,
+        "activity": activity
+    }
+
+def generate_ai_analysis(data, analysis):
+    return f"""
+<svg width="900" height="260" xmlns="http://www.w3.org/2000/svg">
+
+<style>
+  .bg {{ fill: #05070d; }}
+  .text {{ fill: #00ffff; font-family: monospace; font-size: 14px; }}
+  .title {{ fill: #00ffff; font-size: 18px; }}
+  .glow {{ filter: drop-shadow(0 0 6px #00ffff); }}
+</style>
+
+<rect width="100%" height="100%" class="bg"/>
+
+<text x="20" y="30" class="title glow">
+🧠 AI REPOSITORY ANALYSIS
+</text>
+
+<text x="20" y="70" class="text">
+📦 Total repos: {analysis["total_repos"]}
+</text>
+
+<text x="20" y="100" class="text">
+⚡ Activity level: {analysis["activity"]}
+</text>
+
+<text x="20" y="130" class="text">
+🧬 Dominant language: {analysis["top_lang"]}
+</text>
+
+<text x="20" y="180" class="text glow">
+> SYSTEM INTERPRETATION:
+</text>
+
+<text x="20" y="210" class="text">
+{generate_ai_message(analysis)}
+</text>
+
+</svg>
+"""
+
+def generate_ai_message(analysis):
+    if analysis["activity"] == "HIGH":
+        return "ACTIVE BUILDER • CONTINUOUS EVOLUTION DETECTED"
+    elif analysis["activity"] == "MEDIUM":
+        return "STABLE DEVELOPMENT • PATTERN CONSISTENCY"
+    else:
+        return "LOW SIGNAL • POTENTIAL UNDER UTILIZATION"
 
 # =========================================================
 # ⚡ GENERATE DYNAMIC DATA (TODO UNIFICADO)
@@ -267,6 +355,13 @@ def main():
     banner = generate_identity_banner(data)
     with open("banner.svg", "w") as f:
         f.write(banner)
+
+    repos = fetch_repos("Makavellik")
+    analysis = analyze_repos(repos)
+
+    ai_svg = generate_ai_analysis(data, analysis)
+    with open("ai.svg", "w") as f:
+        f.write(ai_svg)    
 
     print("✅ README y HUD generados correctamente")
 
