@@ -12,7 +12,7 @@ def load_template():
 
 
 def fetch_repos(username):
-    url = f"https://api.github.com/Makavellik/{username}/repos"
+    url = f"https://api.github.com/Makavellik/Makavellik{username}/repos"
     try:
         response = requests.get(url, timeout=10)
         return response.json()
