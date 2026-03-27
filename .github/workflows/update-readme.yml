@@ -16,40 +16,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Ejecutar script
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      - name: Ejecutar sistema (Python)
         run: python scripts/generate_readme.py
 
-      - name: Generar README
-        run: |
-          cp README.template.md README.md
-
-          STATUS=$(shuf -n 1 -e "ONLINE" "STEALTH" "ACTIVE")
-          DATE=$(date)
-          ACTIVITY=$(shuf -n 1 -e "ALTA" "MEDIA" "INTENSA")
-          NODE=$(echo $RANDOM)
-          COMMITS=$(shuf -i 1-10 -n 1)
-          REPOS=$(shuf -i 1-5 -n 1)
-          HOURS=$(shuf -i 1-12 -n 1)
-
-          MESSAGES=(
-            "El sistema evoluciona..."
-            "Nueva capa cargada..."
-            "Expansión en proceso..."
-            "Conciencia adaptativa activa..."
-          )
-          MESSAGE=${MESSAGES[$RANDOM % ${#MESSAGES[@]}]}
-
-          sed -i "s/{{STATUS}}/$STATUS/g" README.md
-          sed -i "s/{{LAST_UPDATE}}/$DATE/g" README.md
-          sed -i "s/{{ACTIVITY_LEVEL}}/$ACTIVITY/g" README.md
-          sed -i "s/{{NODE_ID}}/$NODE/g" README.md
-          sed -i "s/{{COMMITS}}/$COMMITS/g" README.md
-          sed -i "s/{{REPOS}}/$REPOS/g" README.md
-          sed -i "s/{{HOURS}}/$HOURS/g" README.md
-          sed -i "s/{{DAILY_MESSAGE}}/$MESSAGE/g" README.md
-
-      - name: Commit automático (SIN ERROR)
+      - name: Commit automático (FIX TOTAL)
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "⚡ auto-update system"
-          file_pattern: README.md
+          file_pattern: .
+          pull: true
