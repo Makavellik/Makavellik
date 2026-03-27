@@ -12,11 +12,18 @@ def load_template():
 
 
 def fetch_repos(username):
-    url = f"https://api.github.com/Makavellik/Makavellik{username}/repos"
+    url = f"https://api.github.com/users/{username}/repos"
     try:
         response = requests.get(url, timeout=10)
+
+        if response.status_code != 200:
+            print(f"❌ Error API: {response.status_code}")
+            return []
+
         return response.json()
-    except:
+
+    except Exception as e:
+        print(f"💀 Exception: {e}")
         return []
 
 def analyze_repos(repos):
