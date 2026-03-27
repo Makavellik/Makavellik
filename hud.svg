@@ -28,28 +28,28 @@
 </line>
 
 
-    <circle cx="313" cy="398" r="3" fill="#00ffff">
-      <animate attributeName="r" values="3;8;3" dur="1.222250219559037s" repeatCount="indefinite"/>
+    <circle cx="225" cy="285" r="3" fill="#00ffff">
+      <animate attributeName="r" values="3;8;3" dur="1.1272174112224005s" repeatCount="indefinite"/>
     </circle>
     
-    <circle cx="439" cy="359" r="3" fill="#00ffff">
-      <animate attributeName="r" values="3;8;3" dur="0.9050723539025938s" repeatCount="indefinite"/>
+    <circle cx="192" cy="428" r="3" fill="#00ffff">
+      <animate attributeName="r" values="3;8;3" dur="1.451916388693288s" repeatCount="indefinite"/>
     </circle>
     
-    <circle cx="372" cy="232" r="3" fill="#00ffff">
-      <animate attributeName="r" values="3;8;3" dur="1.346011222836965s" repeatCount="indefinite"/>
+    <circle cx="223" cy="330" r="3" fill="#00ffff">
+      <animate attributeName="r" values="3;8;3" dur="1.0044481712395315s" repeatCount="indefinite"/>
     </circle>
     
-    <circle cx="247" cy="94" r="3" fill="#00ffff">
-      <animate attributeName="r" values="3;8;3" dur="1.2977463726949237s" repeatCount="indefinite"/>
+    <circle cx="263" cy="82" r="3" fill="#00ffff">
+      <animate attributeName="r" values="3;8;3" dur="1.2837548740942808s" repeatCount="indefinite"/>
     </circle>
     
 
-<rect x="20" y="420" width="63" height="8" fill="#00ffff" class="glow"/>
+<rect x="20" y="420" width="117" height="8" fill="#00ffff" class="glow"/>
 <rect x="20" y="440" width="273" height="8" fill="#00ffff"/>
 
-<text x="20" y="30" class="text">LATENCY: 101 ms</text>
-<text x="20" y="50" class="text">CPU: 21%</text>
+<text x="20" y="30" class="text">LATENCY: 118 ms</text>
+<text x="20" y="50" class="text">CPU: 39%</text>
 <text x="20" y="70" class="text">MEM: 91%</text>
 <text x="20" y="90" class="text">SEC: LOW</text>
 <text x="20" y="110" class="text">THREAT: STABLE</text>
@@ -59,7 +59,7 @@
 </text>
 
 <text x="250" y="280" text-anchor="middle" class="text">
-  LEARNING...
+  ANALYZING...
 </text>
 
 </svg>

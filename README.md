@@ -12,6 +12,59 @@
 <p align="center">
   <img src="./repos_clickable.svg" />
 </p>
+
+<div align="center" style="background:#04060a; padding:20px; border-radius:12px; font-family: monospace; color:#00ffff; box-shadow: 0 0 20px #00ffff;">
+  <h2 style="color:#00ffff; text-shadow:0 0 8px #00ffff; margin-bottom:15px;">
+    ⚡ TACTICAL REPOSITORY ACCESS
+  </h2>
+
+  <ul style="list-style:none; padding-left:0; margin:0; font-size:16px;">
+    <li style="margin:10px 0;">
+      <a href="https://github.com/Makavellik/OsintInverso" target="_blank" 
+         style="color:#00ffff; text-decoration:none; transition:0.3s; text-shadow:0 0 4px #00ffff;"
+         onmouseover="this.style.color='#ffffff'; this.style.textShadow='0 0 12px #00ffff';"
+         onmouseout="this.style.color='#00ffff'; this.style.textShadow='0 0 4px #00ffff';">
+         ▶ osint-core
+      </a>
+    </li>
+    <li style="margin:10px 0;">
+      <a href="https://github.com/Makavellik/Observador-X-Ray" target="_blank" 
+         style="color:#00ffff; text-decoration:none; transition:0.3s; text-shadow:0 0 4px #00ffff;"
+         onmouseover="this.style.color='#ffffff'; this.style.textShadow='0 0 12px #00ffff';"
+         onmouseout="this.style.color='#00ffff'; this.style.textShadow='0 0 4px #00ffff';">
+         ▶ neural-scanner
+      </a>
+    </li>
+    <li style="margin:10px 0;">
+      <a href="https://github.com/Makavellik/OsintSignalsF" target="_blank" 
+         style="color:#00ffff; text-decoration:none; transition:0.3s; text-shadow:0 0 4px #00ffff;"
+         onmouseover="this.style.color='#ffffff'; this.style.textShadow='0 0 12px #00ffff';"
+         onmouseout="this.style.color='#00ffff'; this.style.textShadow='0 0 4px #00ffff';">
+         ▶ stealth-engine
+      </a>
+    </li>
+    <li style="margin:10px 0;">
+      <a href="https://github.com/Makavellik/DnSAnalizadorIT" target="_blank" 
+         style="color:#00ffff; text-decoration:none; transition:0.3s; text-shadow:0 0 4px #00ffff;"
+         onmouseover="this.style.color='#ffffff'; this.style.textShadow='0 0 12px #00ffff';"
+         onmouseout="this.style.color='#00ffff'; this.style.textShadow='0 0 4px #00ffff';">
+         ▶ ai-defense-system
+      </a>
+    </li>
+    <li style="margin:10px 0;">
+      <a href="https://github.com/Makavellik/SENTINELA-v2-Vigilancia-Total" target="_blank" 
+         style="color:#00ffff; text-decoration:none; transition:0.3s; text-shadow:0 0 4px #00ffff;"
+         onmouseover="this.style.color='#ffffff'; this.style.textShadow='0 0 12px #00ffff';"
+         onmouseout="this.style.color='#00ffff'; this.style.textShadow='0 0 4px #00ffff';">
+         ▶ ai-defense-system
+      </a>
+    </li>
+  </ul>
+
+  <p style="margin-top:20px; color:#00ffff; text-shadow:0 0 6px #00ffff; font-size:14px;">
+    🔒 Stay Tactical. ⚡
+  </p>
+</div>
 <!-- ☠️ MILITARY HUD NEON SYSTEM -->
 
 <p align="center">
@@ -123,11 +176,11 @@ TARGET LOCKED • SIGNAL STABLE • SCANNING... </text>
 # 🧠 ESTADO DEL SISTEMA
 
 ```txt
-🟢 Estado: ONLINE
-🕒 Última actualización: 2026-03-27 06:37:29
+🟢 Estado: STEALTH
+🕒 Última actualización: 2026-03-27 07:00:03
 ⚡ Actividad: ALTA
-🌐 Nodo: 1278
-🧬 Versión: v3.2
+🌐 Nodo: 7608
+🧬 Versión: v1.8
 ```
 
 ---
@@ -135,8 +188,8 @@ TARGET LOCKED • SIGNAL STABLE • SCANNING... </text>
 # ⚙️ TELEMETRÍA EN TIEMPO REAL
 
 ```txt
-📡 Latencia: 101 ms
-🧠 Carga cognitiva: 21 %
+📡 Latencia: 118 ms
+🧠 Carga cognitiva: 39 %
 💾 Memoria activa: 91 %
 🔐 Seguridad: LOW
 ⚠️ Riesgo: STABLE
@@ -147,11 +200,11 @@ TARGET LOCKED • SIGNAL STABLE • SCANNING... </text>
 # 📊 ACTIVIDAD
 
 ```txt
-💻 Commits: 5
-📦 Repos: 3
+💻 Commits: 4
+📦 Repos: 4
 🧠 Tiempo activo: 8 hrs
-📈 Tendencia: UP
-🔥 Racha: 7
+📈 Tendencia: DOWN
+🔥 Racha: 29
 ```
 
 ---
@@ -159,7 +212,7 @@ TARGET LOCKED • SIGNAL STABLE • SCANNING... </text>
 # 🧬 MENSAJE DEL SISTEMA
 
 ```txt
-El sistema evoluciona...
+Expansión en proceso...
 ```
 
 ---
@@ -188,11 +241,11 @@ El sistema evoluciona...
 # 🔐 ESTADO DE MÓDULOS
 
 ```txt
-🧠 IA Central .............. ACTIVE
-⚙️ Automatización .......... IDLE
-🛡️ Seguridad ............... SECURE
+🧠 IA Central .............. LEARNING
+⚙️ Automatización .......... RUNNING
+🛡️ Seguridad ............... MONITORING
 📡 Red ..................... STABLE
-🧬 Evolución ............... PHASE 1
+🧬 Evolución ............... EXPANDING
 ```
 
 ---
@@ -201,8 +254,8 @@ El sistema evoluciona...
 
 ```txt
 🌍 Zona: UTC
-⏱️ Hora del sistema: 06:37:29
-🌡️ Clima: CLOUDY
+⏱️ Hora del sistema: 07:00:03
+🌡️ Clima: UNKNOWN
 ```
 
 ---
