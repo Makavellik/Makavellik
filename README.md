@@ -1,8 +1,4 @@
 <p align="center">
-  <img src="hud.svg" />
-</p>
-
-<p align="center">
   <img src="./hud.svg" />
 </p>
 
@@ -129,10 +125,10 @@ TARGET LOCKED • SIGNAL STABLE • SCANNING... </text>
 # ⚙️ TELEMETRÍA EN TIEMPO REAL
 
 ```txt
-📡 Latencia: 107 ms
-🧠 Carga cognitiva: 26 %
-💾 Memoria activa: 22 %
-🔐 Seguridad: LOW
+📡 Latencia: 45 ms
+🧠 Carga cognitiva: 51 %
+💾 Memoria activa: 62 %
+🔐 Seguridad: HIGH
 ⚠️ Riesgo: CRITICAL
 ```
 
@@ -145,7 +141,7 @@ TARGET LOCKED • SIGNAL STABLE • SCANNING... </text>
 📦 Repos: {{REPOS}}
 🧠 Tiempo activo: {{HOURS}} hrs
 📈 Tendencia: STABLE
-🔥 Racha: 8
+🔥 Racha: 2
 ```
 
 ---
@@ -182,11 +178,11 @@ TARGET LOCKED • SIGNAL STABLE • SCANNING... </text>
 # 🔐 ESTADO DE MÓDULOS
 
 ```txt
-🧠 IA Central .............. ACTIVE
-⚙️ Automatización .......... IDLE
+🧠 IA Central .............. OPTIMIZING
+⚙️ Automatización .......... RUNNING
 🛡️ Seguridad ............... MONITORING
-📡 Red ..................... STABLE
-🧬 Evolución ............... PHASE 2
+📡 Red ..................... LATENT
+🧬 Evolución ............... EXPANDING
 ```
 
 ---
@@ -195,8 +191,8 @@ TARGET LOCKED • SIGNAL STABLE • SCANNING... </text>
 
 ```txt
 🌍 Zona: UTC
-⏱️ Hora del sistema: 03:54:20
-🌡️ Clima: UNKNOWN
+⏱️ Hora del sistema: 04:03:21
+🌡️ Clima: CLOUDY
 ```
 
 ---
