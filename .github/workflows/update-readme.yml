@@ -25,6 +25,10 @@ jobs:
         with:
           python-version: "3.x"
 
+      # 🔥 NUEVO (NO ROMPE NADA)
+      - name: Instalar dependencias
+        run: pip install requests
+
       - name: Ejecutar sistema (Python)
         run: python scripts/generate_readme.py
 
