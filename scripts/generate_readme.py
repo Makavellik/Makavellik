@@ -274,15 +274,15 @@ def save_hud(svg):
 # 🚀 MAIN EXECUTION
 # =========================================================
 def main():
-    svg = generate_ultra_hud(data)
+    data = generate_data()  # Generar datos PRIMERO
     template = load_template()
-    data = generate_data()
-
+    
     rendered = render_template(template, data)
     save_readme(rendered)
 
     # 🔥 elige el HUD que quieras
-    svg = generate_radar_hud(data)  # o generate_simple_hud(data)
+    svg = generate_ultra_hud(data)  # Ahora 'data' está definida
+    # svg = generate_simple_hud(data)  # Opción alternativa
 
     save_hud(svg)
 
