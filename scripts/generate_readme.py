@@ -371,9 +371,9 @@ def main():
     with open("ai.svg", "w") as f:
         f.write(ai_svg)
 
-    repo_ui = generate_clickable_repos()
-    with open("repos_clickable.svg", "w") as f:
-        f.write(repo_ui)    
+    #repo_ui = generate_clickable_repos()
+    #with open("repos_clickable.svg", "w") as f:
+    #    f.write(repo_ui)    
 
     print("✅ README y HUD generados correctamente")
 
