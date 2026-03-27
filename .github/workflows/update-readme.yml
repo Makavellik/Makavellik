@@ -19,7 +19,6 @@ jobs:
       - name: Generar README
         run: |
           cp README.template.md README.md
-          cp scripts/generate_readme.py
 
           STATUS=$(shuf -n 1 -e "ONLINE" "STEALTH" "ACTIVE")
           DATE=$(date)
