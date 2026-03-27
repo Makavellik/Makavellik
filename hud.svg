@@ -2,27 +2,23 @@
 <svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
 
 <style>
-  .bg { fill: #04060a; }
-  .grid { stroke: #00ffff; stroke-opacity: 0.12; }
-  .text { fill: #00ffff; font-family: monospace; font-size: 12px; }
-  .glow { filter: drop-shadow(0 0 6px #00ffff); }
+  .bg { fill: #0a0600; }
+  .grid { stroke: #ffaa00; stroke-opacity: 0.12; }
+  .text { fill: #ffaa00; font-family: monospace; font-size: 12px; }
+  .glow { filter: drop-shadow(0 0 6px #ffaa00); }
 </style>
 
-<!-- Fondo -->
 <rect width="100%" height="100%" class="bg"/>
 
-<!-- Núcleo -->
-<circle cx="250" cy="250" r="18" fill="#00ffff" class="glow">
+<circle cx="250" cy="250" r="18" fill="#ffaa00" class="glow">
   <animate attributeName="r" values="18;28;18" dur="1s" repeatCount="indefinite"/>
 </circle>
 
-<!-- Anillos -->
 <circle cx="250" cy="250" r="70" class="grid"/>
 <circle cx="250" cy="250" r="140" class="grid"/>
 <circle cx="250" cy="250" r="200" class="grid"/>
 
-<!-- Barrido radar -->
-<line x1="250" y1="250" x2="250" y2="40" stroke="#00ffff" stroke-width="2" class="glow">
+<line x1="250" y1="250" x2="250" y2="40" stroke="#ffaa00" stroke-width="2" class="glow">
   <animateTransform attributeName="transform"
     type="rotate"
     from="0 250 250"
@@ -31,44 +27,39 @@
     repeatCount="indefinite"/>
 </line>
 
-<!-- MULTI OBJETIVOS -->
 
-    <circle cx="342" cy="440" r="3" fill="#00ffff">
-      <animate attributeName="r" values="3;8;3" dur="1.180180186247195s" repeatCount="indefinite"/>
+    <circle cx="147" cy="208" r="3" fill="#ffaa00">
+      <animate attributeName="r" values="3;8;3" dur="1.4914715570566852s" repeatCount="indefinite"/>
     </circle>
     
-    <circle cx="170" cy="170" r="3" fill="#00ffff">
-      <animate attributeName="r" values="3;8;3" dur="1.0885214300413262s" repeatCount="indefinite"/>
+    <circle cx="286" cy="322" r="3" fill="#ffaa00">
+      <animate attributeName="r" values="3;8;3" dur="1.4670163916638161s" repeatCount="indefinite"/>
     </circle>
     
-    <circle cx="274" cy="60" r="3" fill="#00ffff">
-      <animate attributeName="r" values="3;8;3" dur="1.3039431560317136s" repeatCount="indefinite"/>
+    <circle cx="290" cy="411" r="3" fill="#ffaa00">
+      <animate attributeName="r" values="3;8;3" dur="1.077152762668241s" repeatCount="indefinite"/>
     </circle>
     
-    <circle cx="257" cy="163" r="3" fill="#00ffff">
-      <animate attributeName="r" values="3;8;3" dur="0.853103439577572s" repeatCount="indefinite"/>
+    <circle cx="200" cy="419" r="3" fill="#ffaa00">
+      <animate attributeName="r" values="3;8;3" dur="1.1742165617985816s" repeatCount="indefinite"/>
     </circle>
     
 
-<!-- BARRAS SISTEMA -->
-<rect x="20" y="420" width="174" height="8" fill="#00ffff" class="glow"/>
-<rect x="20" y="440" width="285" height="8" fill="#00ffff"/>
+<rect x="20" y="420" width="105" height="8" fill="#ffaa00" class="glow"/>
+<rect x="20" y="440" width="78" height="8" fill="#ffaa00"/>
 
-<!-- TEXTO -->
-<text x="20" y="30" class="text">LATENCY: 49 ms</text>
-<text x="20" y="50" class="text">CPU: 58%</text>
-<text x="20" y="70" class="text">MEM: 95%</text>
-<text x="20" y="90" class="text">SEC: LOW</text>
-<text x="20" y="110" class="text">THREAT: STABLE</text>
+<text x="20" y="30" class="text">LATENCY: 30 ms</text>
+<text x="20" y="50" class="text">CPU: 35%</text>
+<text x="20" y="70" class="text">MEM: 26%</text>
+<text x="20" y="90" class="text">SEC: MEDIUM</text>
+<text x="20" y="110" class="text">THREAT: ELEVATED</text>
 
-<!-- ESTADO -->
 <text x="250" y="255" text-anchor="middle" class="text glow">
-  ✓ SYSTEM STABLE
+  ⚡ ALERT MODE
 </text>
 
-<!-- "MENTE" DEL SISTEMA -->
 <text x="250" y="280" text-anchor="middle" class="text">
-  ADAPTING...
+  EVOLVING...
 </text>
 
 </svg>

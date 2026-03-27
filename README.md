@@ -1,6 +1,9 @@
 <p align="center">
   <img src="./hud.svg" />
 </p>
+<p align="center">
+  <img src="./banner.svg" />
+</p>
 
 <!-- ☠️ MILITARY HUD NEON SYSTEM -->
 
@@ -113,11 +116,11 @@ TARGET LOCKED • SIGNAL STABLE • SCANNING... </text>
 # 🧠 ESTADO DEL SISTEMA
 
 ```txt
-🟢 Estado: {{STATUS}}
-🕒 Última actualización: {{LAST_UPDATE}}
-⚡ Actividad: {{ACTIVITY_LEVEL}}
-🌐 Nodo: {{NODE_ID}}
-🧬 Versión: {{SYSTEM_VERSION}}
+🟢 Estado: ONLINE
+🕒 Última actualización: 2026-03-27 04:25:46
+⚡ Actividad: MEDIA
+🌐 Nodo: 3120
+🧬 Versión: v3.5
 ```
 
 ---
@@ -125,11 +128,11 @@ TARGET LOCKED • SIGNAL STABLE • SCANNING... </text>
 # ⚙️ TELEMETRÍA EN TIEMPO REAL
 
 ```txt
-📡 Latencia: 49 ms
-🧠 Carga cognitiva: 58 %
-💾 Memoria activa: 95 %
-🔐 Seguridad: LOW
-⚠️ Riesgo: STABLE
+📡 Latencia: 30 ms
+🧠 Carga cognitiva: 35 %
+💾 Memoria activa: 26 %
+🔐 Seguridad: MEDIUM
+⚠️ Riesgo: ELEVATED
 ```
 
 ---
@@ -137,11 +140,11 @@ TARGET LOCKED • SIGNAL STABLE • SCANNING... </text>
 # 📊 ACTIVIDAD
 
 ```txt
-💻 Commits: {{COMMITS}}
-📦 Repos: {{REPOS}}
-🧠 Tiempo activo: {{HOURS}} hrs
-📈 Tendencia: DOWN
-🔥 Racha: 17
+💻 Commits: 10
+📦 Repos: 5
+🧠 Tiempo activo: 10 hrs
+📈 Tendencia: UP
+🔥 Racha: 15
 ```
 
 ---
@@ -149,7 +152,7 @@ TARGET LOCKED • SIGNAL STABLE • SCANNING... </text>
 # 🧬 MENSAJE DEL SISTEMA
 
 ```txt
-{{DAILY_MESSAGE}}
+El sistema evoluciona...
 ```
 
 ---
@@ -181,8 +184,8 @@ TARGET LOCKED • SIGNAL STABLE • SCANNING... </text>
 🧠 IA Central .............. ACTIVE
 ⚙️ Automatización .......... RUNNING
 🛡️ Seguridad ............... SECURE
-📡 Red ..................... LATENT
-🧬 Evolución ............... PHASE 1
+📡 Red ..................... STABLE
+🧬 Evolución ............... EXPANDING
 ```
 
 ---
@@ -191,7 +194,7 @@ TARGET LOCKED • SIGNAL STABLE • SCANNING... </text>
 
 ```txt
 🌍 Zona: UTC
-⏱️ Hora del sistema: 04:14:30
+⏱️ Hora del sistema: 04:25:46
 🌡️ Clima: CLOUDY
 ```
 
