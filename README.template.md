@@ -9,6 +9,9 @@
   <img src="./ai.svg" />
 </p>
 
+<p align="center">
+  <img src="./repos_clickable.svg" />
+</p>
 <!-- ☠️ MILITARY HUD NEON SYSTEM -->
 
 <p align="center">
