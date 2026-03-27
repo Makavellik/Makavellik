@@ -147,6 +147,120 @@ def generate_radar_hud(data):
 </svg>
 """
 
+def generate_ultra_hud(data):
+    # 🎨 colores dinámicos según amenaza
+    if data["THREAT_LEVEL"] == "CRITICAL":
+        primary = "#ff0033"
+        bg = "#0a0000"
+        status_text = "⚠ SYSTEM UNDER THREAT"
+    elif data["THREAT_LEVEL"] == "ELEVATED":
+        primary = "#ffaa00"
+        bg = "#0a0600"
+        status_text = "⚡ ALERT MODE"
+    else:
+        primary = "#00ffff"
+        bg = "#04060a"
+        status_text = "✓ SYSTEM STABLE"
+
+    # 🧠 estado "emocional"
+    mood = random.choice([
+        "ANALYZING...",
+        "ADAPTING...",
+        "LEARNING...",
+        "SCANNING...",
+        "EVOLVING..."
+    ])
+
+    return f"""
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+
+<style>
+  .bg {{ fill: {bg}; }}
+  .grid {{ stroke: {primary}; stroke-opacity: 0.12; }}
+  .text {{ fill: {primary}; font-family: monospace; font-size: 12px; }}
+  .glow {{ filter: drop-shadow(0 0 6px {primary}); }}
+</style>
+
+<!-- Fondo -->
+<rect width="100%" height="100%" class="bg"/>
+
+<!-- Núcleo -->
+<circle cx="250" cy="250" r="18" fill="{primary}" class="glow">
+  <animate attributeName="r" values="18;28;18" dur="1s" repeatCount="indefinite"/>
+</circle>
+
+<!-- Anillos -->
+<circle cx="250" cy="250" r="70" class="grid"/>
+<circle cx="250" cy="250" r="140" class="grid"/>
+<circle cx="250" cy="250" r="200" class="grid"/>
+
+<!-- Barrido radar -->
+<line x1="250" y1="250" x2="250" y2="40" stroke="{primary}" stroke-width="2" class="glow">
+  <animateTransform attributeName="transform"
+    type="rotate"
+    from="0 250 250"
+    to="360 250 250"
+    dur="2s"
+    repeatCount="indefinite"/>
+</line>
+
+<!-- MULTI OBJETIVOS -->
+{"".join([
+    f'''
+    <circle cx="{random.randint(60,440)}" cy="{random.randint(60,440)}" r="3" fill="{primary}">
+      <animate attributeName="r" values="3;8;3" dur="{random.uniform(0.8,1.5)}s" repeatCount="indefinite"/>
+    </circle>
+    ''' for _ in range(4)
+])}
+
+<!-- BARRAS SISTEMA -->
+<rect x="20" y="420" width="{data["CPU_LOAD"] * 3}" height="8" fill="{primary}" class="glow"/>
+<rect x="20" y="440" width="{data["MEMORY_USAGE"] * 3}" height="8" fill="{primary}"/>
+
+<!-- TEXTO -->
+<text x="20" y="30" class="text">LATENCY: {data["LATENCY"]} ms</text>
+<text x="20" y="50" class="text">CPU: {data["CPU_LOAD"]}%</text>
+<text x="20" y="70" class="text">MEM: {data["MEMORY_USAGE"]}%</text>
+<text x="20" y="90" class="text">SEC: {data["SECURITY_LEVEL"]}</text>
+<text x="20" y="110" class="text">THREAT: {data["THREAT_LEVEL"]}</text>
+
+<!-- ESTADO -->
+<text x="250" y="255" text-anchor="middle" class="text glow">
+  {status_text}
+</text>
+
+<!-- "MENTE" DEL SISTEMA -->
+<text x="250" y="280" text-anchor="middle" class="text">
+  {mood}
+</text>
+
+</svg>
+"""
+import random
+from datetime import datetime
+
+data = {
+    # 🔥 SISTEMA BASE
+    "STATUS": random.choice(["ONLINE", "STEALTH", "ACTIVE"]),
+    "LAST_UPDATE": datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S"),
+    "ACTIVITY_LEVEL": random.choice(["ALTA", "MEDIA", "INTENSA"]),
+    "NODE_ID": random.randint(1000, 9999),
+    "SYSTEM_VERSION": f"v{random.randint(1,3)}.{random.randint(0,9)}",
+
+    # 📊 ACTIVIDAD
+    "COMMITS": random.randint(1, 10),
+    "REPOS": random.randint(1, 5),
+    "HOURS": random.randint(1, 12),
+
+    # 🧠 MENSAJE
+    "DAILY_MESSAGE": random.choice([
+        "El sistema evoluciona...",
+        "Nueva capa cargada...",
+        "Expansión en proceso...",
+        "Conciencia adaptativa activa..."
+    ]),
+}
+
 
 # =========================================================
 # 💾 SAVE HUD
@@ -160,6 +274,7 @@ def save_hud(svg):
 # 🚀 MAIN EXECUTION
 # =========================================================
 def main():
+    svg = generate_ultra_hud(data)
     template = load_template()
     data = generate_data()
 
