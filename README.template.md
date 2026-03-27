@@ -1,6 +1,9 @@
 <p align="center">
   <img src="./hud.svg" />
 </p>
+<p align="center">
+  <img src="./banner.svg" />
+</p>
 
 <!-- ☠️ MILITARY HUD NEON SYSTEM -->
 
