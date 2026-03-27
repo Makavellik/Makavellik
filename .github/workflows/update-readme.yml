@@ -15,6 +15,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # 🔥 evita problemas de historial
 
       - name: Generar README
         run: |
@@ -28,7 +30,7 @@ jobs:
           REPOS=$(shuf -i 1-5 -n 1)
           HOURS=$(shuf -i 1-12 -n 1)
 
-          # 🔥 NUEVAS VARIABLES (NO ROMPEN NADA)
+          # 🔥 TELEMETRÍA
           LATENCY=$(shuf -i 20-120 -n 1)
           CPU=$(shuf -i 10-95 -n 1)
           MEMORY=$(shuf -i 20-95 -n 1)
@@ -49,7 +51,7 @@ jobs:
           CURRENT_TIME=$(date +%H:%M:%S)
           WEATHER=$(shuf -n 1 -e "CLEAR" "CLOUDY" "UNKNOWN")
 
-          # ⚡ EVENTOS DINÁMICOS
+          # ⚡ EVENTOS MULTILÍNEA
           EVENTS=$(printf "[SYS] Scan complete\n[AI] Pattern detected\n[NET] Stable connection")
 
           MESSAGES=(
@@ -60,7 +62,7 @@ jobs:
           )
           MESSAGE=${MESSAGES[$RANDOM % ${#MESSAGES[@]}]}
 
-          # 🧠 REEMPLAZOS ORIGINALES
+          # 🧠 REEMPLAZOS BASE
           sed -i "s/{{STATUS}}/$STATUS/g" README.md
           sed -i "s/{{LAST_UPDATE}}/$DATE/g" README.md
           sed -i "s/{{ACTIVITY_LEVEL}}/$ACTIVITY/g" README.md
@@ -70,7 +72,7 @@ jobs:
           sed -i "s/{{HOURS}}/$HOURS/g" README.md
           sed -i "s/{{DAILY_MESSAGE}}/$MESSAGE/g" README.md
 
-          # 🔥 NUEVOS REEMPLAZOS (EXPANSIÓN)
+          # 🔥 REEMPLAZOS AVANZADOS
           sed -i "s/{{LATENCY}}/$LATENCY/g" README.md
           sed -i "s/{{CPU_LOAD}}/$CPU/g" README.md
           sed -i "s/{{MEMORY_USAGE}}/$MEMORY/g" README.md
@@ -89,11 +91,12 @@ jobs:
           sed -i "s/{{CURRENT_TIME}}/$CURRENT_TIME/g" README.md
           sed -i "s/{{WEATHER}}/$WEATHER/g" README.md
 
-          # ⚠️ IMPORTANTE: multilinea
+          # ⚠️ MULTILÍNEA FIX (CLAVE)
           awk -v events="$EVENTS" '{gsub(/{{SYSTEM_EVENTS}}/, events)}1' README.md > tmp && mv tmp README.md
 
-      - name: Commit automático (SIN ERROR)
+      - name: Commit automático (FIX PRO)
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "⚡ auto-update system"
           file_pattern: README.md
+          pull: true   # 🔥 SOLUCIONA TU ERROR
