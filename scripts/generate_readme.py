@@ -10,7 +10,57 @@ def load_template():
     with open("README.template.md", "r", encoding="utf-8") as f:
         return f.read()
 
+def generate_clickable_repos():
+    repos = [
+        ("osint-core", "https://github.com/Makavellik/OsintInverso"),
+        ("neural-scanner", "https://github.com/Makavellik/Observador-X-Ray"),
+        ("stealth-engine", "https://github.com/Makavellik/OsintSignalsF"),
+        ("ai-defense-system", "https://github.com/Makavellik/DnSAnalizadorIT"),
+        ("ai-defense-system", "https://github.com/Makavellik/SENTINELA-v2-Vigilancia-Total"),
+    ]
 
+    return f"""
+<svg width="900" height="300" xmlns="http://www.w3.org/2000/svg">
+
+<style>
+  .bg {{ fill: #04060a; }}
+  .title {{ fill: #00ffff; font-size: 18px; font-family: monospace; }}
+  .repo {{ fill: #00ffff; font-size: 14px; font-family: monospace; cursor: pointer; }}
+  .repo:hover {{ fill: #ffffff; }}
+  .glow {{ filter: drop-shadow(0 0 6px #00ffff); }}
+</style>
+
+<rect width="100%" height="100%" class="bg"/>
+
+<!-- Título -->
+<text x="20" y="30" class="title glow">
+⚡ TACTICAL REPOSITORY ACCESS
+</text>
+
+<!-- Línea scan -->
+<line x1="0" y1="50" x2="900" y2="50" stroke="#00ffff" stroke-width="1">
+  <animate attributeName="y1" values="50;300;50" dur="3s" repeatCount="indefinite"/>
+  <animate attributeName="y2" values="50;300;50" dur="3s" repeatCount="indefinite"/>
+</line>
+
+<!-- Repos clickeables -->
+{"".join([
+    f'''
+    <a href="{url}" target="_blank">
+      <text x="40" y="{90 + i*40}" class="repo glow">
+        ▶ {name}
+        <animate attributeName="opacity"
+                 values="0;1"
+                 dur="1s"
+                 begin="{i * 0.3}s"
+                 fill="freeze"/>
+      </text>
+    </a>
+    ''' for i, (name, url) in enumerate(repos)
+])}
+
+</svg>
+"""
 
 def fetch_repos(username):
     url = f"https://api.github.com/users/{username}/repos"
@@ -371,9 +421,9 @@ def main():
     with open("ai.svg", "w") as f:
         f.write(ai_svg)
 
-    #repo_ui = generate_clickable_repos()
-    #with open("repos_clickable.svg", "w") as f:
-    #    f.write(repo_ui)    
+    repo_ui = generate_clickable_repos()
+    with open("repos_clickable.svg", "w") as f:
+        f.write(repo_ui)    
 
     print("✅ README y HUD generados correctamente")
 
