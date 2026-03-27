@@ -5,6 +5,10 @@
   <img src="./banner.svg" />
 </p>
 
+<p align="center">
+  <img src="./ai.svg" />
+</p>
+
 <!-- ☠️ MILITARY HUD NEON SYSTEM -->
 
 <p align="center">
