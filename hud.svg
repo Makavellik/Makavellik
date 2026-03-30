@@ -28,30 +28,30 @@
 </line>
 
 
-    <circle cx="432" cy="316" r="3" fill="#ff0033">
-      <animate attributeName="r" values="3;8;3" dur="1.0626091171300303s" repeatCount="indefinite"/>
+    <circle cx="297" cy="202" r="3" fill="#ff0033">
+      <animate attributeName="r" values="3;8;3" dur="1.0587909019554431s" repeatCount="indefinite"/>
     </circle>
     
-    <circle cx="307" cy="404" r="3" fill="#ff0033">
-      <animate attributeName="r" values="3;8;3" dur="1.2510397233857593s" repeatCount="indefinite"/>
+    <circle cx="77" cy="115" r="3" fill="#ff0033">
+      <animate attributeName="r" values="3;8;3" dur="1.4421081463049488s" repeatCount="indefinite"/>
     </circle>
     
-    <circle cx="147" cy="399" r="3" fill="#ff0033">
-      <animate attributeName="r" values="3;8;3" dur="1.456723298879217s" repeatCount="indefinite"/>
+    <circle cx="334" cy="205" r="3" fill="#ff0033">
+      <animate attributeName="r" values="3;8;3" dur="0.984347274065731s" repeatCount="indefinite"/>
     </circle>
     
-    <circle cx="213" cy="361" r="3" fill="#ff0033">
-      <animate attributeName="r" values="3;8;3" dur="1.1345161754630186s" repeatCount="indefinite"/>
+    <circle cx="236" cy="61" r="3" fill="#ff0033">
+      <animate attributeName="r" values="3;8;3" dur="1.416191826245884s" repeatCount="indefinite"/>
     </circle>
     
 
-<rect x="20" y="420" width="66" height="8" fill="#ff0033" class="glow"/>
-<rect x="20" y="440" width="69" height="8" fill="#ff0033"/>
+<rect x="20" y="420" width="204" height="8" fill="#ff0033" class="glow"/>
+<rect x="20" y="440" width="120" height="8" fill="#ff0033"/>
 
-<text x="20" y="30" class="text">LATENCY: 32 ms</text>
-<text x="20" y="50" class="text">CPU: 22%</text>
-<text x="20" y="70" class="text">MEM: 23%</text>
-<text x="20" y="90" class="text">SEC: LOW</text>
+<text x="20" y="30" class="text">LATENCY: 34 ms</text>
+<text x="20" y="50" class="text">CPU: 68%</text>
+<text x="20" y="70" class="text">MEM: 40%</text>
+<text x="20" y="90" class="text">SEC: MEDIUM</text>
 <text x="20" y="110" class="text">THREAT: CRITICAL</text>
 
 <text x="250" y="255" text-anchor="middle" class="text glow">
@@ -59,7 +59,7 @@
 </text>
 
 <text x="250" y="280" text-anchor="middle" class="text">
-  EVOLVING...
+  LEARNING...
 </text>
 
 </svg>
