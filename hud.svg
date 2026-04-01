@@ -2,15 +2,15 @@
 <svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
 
 <style>
-  .bg { fill: #0a0000; }
-  .grid { stroke: #ff0033; stroke-opacity: 0.12; }
-  .text { fill: #ff0033; font-family: monospace; font-size: 12px; }
-  .glow { filter: drop-shadow(0 0 6px #ff0033); }
+  .bg { fill: #0a0600; }
+  .grid { stroke: #ffaa00; stroke-opacity: 0.12; }
+  .text { fill: #ffaa00; font-family: monospace; font-size: 12px; }
+  .glow { filter: drop-shadow(0 0 6px #ffaa00); }
 </style>
 
 <rect width="100%" height="100%" class="bg"/>
 
-<circle cx="250" cy="250" r="18" fill="#ff0033" class="glow">
+<circle cx="250" cy="250" r="18" fill="#ffaa00" class="glow">
   <animate attributeName="r" values="18;28;18" dur="1s" repeatCount="indefinite"/>
 </circle>
 
@@ -18,7 +18,7 @@
 <circle cx="250" cy="250" r="140" class="grid"/>
 <circle cx="250" cy="250" r="200" class="grid"/>
 
-<line x1="250" y1="250" x2="250" y2="40" stroke="#ff0033" stroke-width="2" class="glow">
+<line x1="250" y1="250" x2="250" y2="40" stroke="#ffaa00" stroke-width="2" class="glow">
   <animateTransform attributeName="transform"
     type="rotate"
     from="0 250 250"
@@ -28,34 +28,34 @@
 </line>
 
 
-    <circle cx="227" cy="335" r="3" fill="#ff0033">
-      <animate attributeName="r" values="3;8;3" dur="1.155001405484879s" repeatCount="indefinite"/>
+    <circle cx="228" cy="394" r="3" fill="#ffaa00">
+      <animate attributeName="r" values="3;8;3" dur="0.9824614777998957s" repeatCount="indefinite"/>
     </circle>
     
-    <circle cx="173" cy="418" r="3" fill="#ff0033">
-      <animate attributeName="r" values="3;8;3" dur="0.8282453983904449s" repeatCount="indefinite"/>
+    <circle cx="381" cy="433" r="3" fill="#ffaa00">
+      <animate attributeName="r" values="3;8;3" dur="1.2286435548123786s" repeatCount="indefinite"/>
     </circle>
     
-    <circle cx="165" cy="89" r="3" fill="#ff0033">
-      <animate attributeName="r" values="3;8;3" dur="0.8808573227330072s" repeatCount="indefinite"/>
+    <circle cx="420" cy="364" r="3" fill="#ffaa00">
+      <animate attributeName="r" values="3;8;3" dur="1.3313988779692438s" repeatCount="indefinite"/>
     </circle>
     
-    <circle cx="370" cy="255" r="3" fill="#ff0033">
-      <animate attributeName="r" values="3;8;3" dur="0.889087951056985s" repeatCount="indefinite"/>
+    <circle cx="437" cy="420" r="3" fill="#ffaa00">
+      <animate attributeName="r" values="3;8;3" dur="1.2293199037606997s" repeatCount="indefinite"/>
     </circle>
     
 
-<rect x="20" y="420" width="150" height="8" fill="#ff0033" class="glow"/>
-<rect x="20" y="440" width="174" height="8" fill="#ff0033"/>
+<rect x="20" y="420" width="105" height="8" fill="#ffaa00" class="glow"/>
+<rect x="20" y="440" width="93" height="8" fill="#ffaa00"/>
 
-<text x="20" y="30" class="text">LATENCY: 33 ms</text>
-<text x="20" y="50" class="text">CPU: 50%</text>
-<text x="20" y="70" class="text">MEM: 58%</text>
+<text x="20" y="30" class="text">LATENCY: 88 ms</text>
+<text x="20" y="50" class="text">CPU: 35%</text>
+<text x="20" y="70" class="text">MEM: 31%</text>
 <text x="20" y="90" class="text">SEC: MEDIUM</text>
-<text x="20" y="110" class="text">THREAT: CRITICAL</text>
+<text x="20" y="110" class="text">THREAT: ELEVATED</text>
 
 <text x="250" y="255" text-anchor="middle" class="text glow">
-  ⚠ SYSTEM UNDER THREAT
+  ⚡ ALERT MODE
 </text>
 
 <text x="250" y="280" text-anchor="middle" class="text">
