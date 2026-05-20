@@ -28,29 +28,29 @@
 </line>
 
 
-    <circle cx="434" cy="344" r="3" fill="#ffaa00">
-      <animate attributeName="r" values="3;8;3" dur="1.228018816825679s" repeatCount="indefinite"/>
+    <circle cx="370" cy="303" r="3" fill="#ffaa00">
+      <animate attributeName="r" values="3;8;3" dur="1.3988693291757763s" repeatCount="indefinite"/>
     </circle>
     
-    <circle cx="350" cy="365" r="3" fill="#ffaa00">
-      <animate attributeName="r" values="3;8;3" dur="1.206713355636s" repeatCount="indefinite"/>
+    <circle cx="146" cy="440" r="3" fill="#ffaa00">
+      <animate attributeName="r" values="3;8;3" dur="1.303049736189028s" repeatCount="indefinite"/>
     </circle>
     
-    <circle cx="396" cy="136" r="3" fill="#ffaa00">
-      <animate attributeName="r" values="3;8;3" dur="1.201275238169289s" repeatCount="indefinite"/>
+    <circle cx="176" cy="61" r="3" fill="#ffaa00">
+      <animate attributeName="r" values="3;8;3" dur="0.9412072560217124s" repeatCount="indefinite"/>
     </circle>
     
-    <circle cx="271" cy="136" r="3" fill="#ffaa00">
-      <animate attributeName="r" values="3;8;3" dur="1.4283348094020532s" repeatCount="indefinite"/>
+    <circle cx="98" cy="436" r="3" fill="#ffaa00">
+      <animate attributeName="r" values="3;8;3" dur="0.9329616464023337s" repeatCount="indefinite"/>
     </circle>
     
 
-<rect x="20" y="420" width="42" height="8" fill="#ffaa00" class="glow"/>
-<rect x="20" y="440" width="261" height="8" fill="#ffaa00"/>
+<rect x="20" y="420" width="132" height="8" fill="#ffaa00" class="glow"/>
+<rect x="20" y="440" width="162" height="8" fill="#ffaa00"/>
 
-<text x="20" y="30" class="text">LATENCY: 99 ms</text>
-<text x="20" y="50" class="text">CPU: 14%</text>
-<text x="20" y="70" class="text">MEM: 87%</text>
+<text x="20" y="30" class="text">LATENCY: 116 ms</text>
+<text x="20" y="50" class="text">CPU: 44%</text>
+<text x="20" y="70" class="text">MEM: 54%</text>
 <text x="20" y="90" class="text">SEC: LOW</text>
 <text x="20" y="110" class="text">THREAT: ELEVATED</text>
 
