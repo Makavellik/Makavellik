@@ -57,7 +57,7 @@
 
 <!-- Datos -->
 <text x="50%" y="145" text-anchor="middle" class="subtitle">
-  🧠 CPU: 39% • 💾 MEM: 52% • 📡 LAT: 26ms
+  🧠 CPU: 31% • 💾 MEM: 27% • 📡 LAT: 50ms
 </text>
 
 <!-- Redes -->
