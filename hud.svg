@@ -28,29 +28,29 @@
 </line>
 
 
-    <circle cx="223" cy="438" r="3" fill="#00ffff">
-      <animate attributeName="r" values="3;8;3" dur="0.8443002238579934s" repeatCount="indefinite"/>
+    <circle cx="421" cy="74" r="3" fill="#00ffff">
+      <animate attributeName="r" values="3;8;3" dur="1.320110789007095s" repeatCount="indefinite"/>
     </circle>
     
-    <circle cx="195" cy="284" r="3" fill="#00ffff">
-      <animate attributeName="r" values="3;8;3" dur="1.3946299267798175s" repeatCount="indefinite"/>
+    <circle cx="414" cy="404" r="3" fill="#00ffff">
+      <animate attributeName="r" values="3;8;3" dur="1.3627347977449782s" repeatCount="indefinite"/>
     </circle>
     
-    <circle cx="366" cy="368" r="3" fill="#00ffff">
-      <animate attributeName="r" values="3;8;3" dur="1.3653364546465208s" repeatCount="indefinite"/>
+    <circle cx="406" cy="99" r="3" fill="#00ffff">
+      <animate attributeName="r" values="3;8;3" dur="1.0751181368101896s" repeatCount="indefinite"/>
     </circle>
     
-    <circle cx="415" cy="435" r="3" fill="#00ffff">
-      <animate attributeName="r" values="3;8;3" dur="1.4838436982173329s" repeatCount="indefinite"/>
+    <circle cx="179" cy="362" r="3" fill="#00ffff">
+      <animate attributeName="r" values="3;8;3" dur="0.8643449032582506s" repeatCount="indefinite"/>
     </circle>
     
 
-<rect x="20" y="420" width="165" height="8" fill="#00ffff" class="glow"/>
-<rect x="20" y="440" width="231" height="8" fill="#00ffff"/>
+<rect x="20" y="420" width="135" height="8" fill="#00ffff" class="glow"/>
+<rect x="20" y="440" width="252" height="8" fill="#00ffff"/>
 
-<text x="20" y="30" class="text">LATENCY: 52 ms</text>
-<text x="20" y="50" class="text">CPU: 55%</text>
-<text x="20" y="70" class="text">MEM: 77%</text>
+<text x="20" y="30" class="text">LATENCY: 84 ms</text>
+<text x="20" y="50" class="text">CPU: 45%</text>
+<text x="20" y="70" class="text">MEM: 84%</text>
 <text x="20" y="90" class="text">SEC: LOW</text>
 <text x="20" y="110" class="text">THREAT: STABLE</text>
 
