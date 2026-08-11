@@ -28,30 +28,30 @@
 </line>
 
 
-    <circle cx="297" cy="89" r="3" fill="#ff0033">
-      <animate attributeName="r" values="3;8;3" dur="1.4789906109413598s" repeatCount="indefinite"/>
+    <circle cx="87" cy="310" r="3" fill="#ff0033">
+      <animate attributeName="r" values="3;8;3" dur="1.464110509772536s" repeatCount="indefinite"/>
     </circle>
     
-    <circle cx="234" cy="81" r="3" fill="#ff0033">
-      <animate attributeName="r" values="3;8;3" dur="1.0818411166479456s" repeatCount="indefinite"/>
+    <circle cx="332" cy="415" r="3" fill="#ff0033">
+      <animate attributeName="r" values="3;8;3" dur="1.4782460224468872s" repeatCount="indefinite"/>
     </circle>
     
-    <circle cx="132" cy="151" r="3" fill="#ff0033">
-      <animate attributeName="r" values="3;8;3" dur="1.4152633585164822s" repeatCount="indefinite"/>
+    <circle cx="142" cy="297" r="3" fill="#ff0033">
+      <animate attributeName="r" values="3;8;3" dur="1.4105899680583676s" repeatCount="indefinite"/>
     </circle>
     
-    <circle cx="275" cy="207" r="3" fill="#ff0033">
-      <animate attributeName="r" values="3;8;3" dur="1.3937655553285797s" repeatCount="indefinite"/>
+    <circle cx="400" cy="82" r="3" fill="#ff0033">
+      <animate attributeName="r" values="3;8;3" dur="1.2275752973738134s" repeatCount="indefinite"/>
     </circle>
     
 
-<rect x="20" y="420" width="261" height="8" fill="#ff0033" class="glow"/>
-<rect x="20" y="440" width="78" height="8" fill="#ff0033"/>
+<rect x="20" y="420" width="234" height="8" fill="#ff0033" class="glow"/>
+<rect x="20" y="440" width="90" height="8" fill="#ff0033"/>
 
-<text x="20" y="30" class="text">LATENCY: 113 ms</text>
-<text x="20" y="50" class="text">CPU: 87%</text>
-<text x="20" y="70" class="text">MEM: 26%</text>
-<text x="20" y="90" class="text">SEC: LOW</text>
+<text x="20" y="30" class="text">LATENCY: 55 ms</text>
+<text x="20" y="50" class="text">CPU: 78%</text>
+<text x="20" y="70" class="text">MEM: 30%</text>
+<text x="20" y="90" class="text">SEC: MEDIUM</text>
 <text x="20" y="110" class="text">THREAT: CRITICAL</text>
 
 <text x="250" y="255" text-anchor="middle" class="text glow">
