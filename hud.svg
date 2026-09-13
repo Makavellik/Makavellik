@@ -28,29 +28,29 @@
 </line>
 
 
-    <circle cx="143" cy="206" r="3" fill="#ffaa00">
-      <animate attributeName="r" values="3;8;3" dur="1.4444176983642338s" repeatCount="indefinite"/>
+    <circle cx="109" cy="244" r="3" fill="#ffaa00">
+      <animate attributeName="r" values="3;8;3" dur="1.25742258137697s" repeatCount="indefinite"/>
     </circle>
     
-    <circle cx="351" cy="184" r="3" fill="#ffaa00">
-      <animate attributeName="r" values="3;8;3" dur="0.9143730391631695s" repeatCount="indefinite"/>
+    <circle cx="273" cy="201" r="3" fill="#ffaa00">
+      <animate attributeName="r" values="3;8;3" dur="0.8489143720004707s" repeatCount="indefinite"/>
     </circle>
     
-    <circle cx="101" cy="102" r="3" fill="#ffaa00">
-      <animate attributeName="r" values="3;8;3" dur="1.124693636051488s" repeatCount="indefinite"/>
+    <circle cx="398" cy="174" r="3" fill="#ffaa00">
+      <animate attributeName="r" values="3;8;3" dur="0.9870707608197464s" repeatCount="indefinite"/>
     </circle>
     
-    <circle cx="359" cy="371" r="3" fill="#ffaa00">
-      <animate attributeName="r" values="3;8;3" dur="0.9454920716624478s" repeatCount="indefinite"/>
+    <circle cx="437" cy="296" r="3" fill="#ffaa00">
+      <animate attributeName="r" values="3;8;3" dur="0.829947645547848s" repeatCount="indefinite"/>
     </circle>
     
 
-<rect x="20" y="420" width="243" height="8" fill="#ffaa00" class="glow"/>
-<rect x="20" y="440" width="111" height="8" fill="#ffaa00"/>
+<rect x="20" y="420" width="183" height="8" fill="#ffaa00" class="glow"/>
+<rect x="20" y="440" width="213" height="8" fill="#ffaa00"/>
 
-<text x="20" y="30" class="text">LATENCY: 107 ms</text>
-<text x="20" y="50" class="text">CPU: 81%</text>
-<text x="20" y="70" class="text">MEM: 37%</text>
+<text x="20" y="30" class="text">LATENCY: 39 ms</text>
+<text x="20" y="50" class="text">CPU: 61%</text>
+<text x="20" y="70" class="text">MEM: 71%</text>
 <text x="20" y="90" class="text">SEC: LOW</text>
 <text x="20" y="110" class="text">THREAT: ELEVATED</text>
 
@@ -59,7 +59,7 @@
 </text>
 
 <text x="250" y="280" text-anchor="middle" class="text">
-  SCANNING...
+  ANALYZING...
 </text>
 
 </svg>
