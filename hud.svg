@@ -28,29 +28,29 @@
 </line>
 
 
-    <circle cx="329" cy="264" r="3" fill="#00ffff">
-      <animate attributeName="r" values="3;8;3" dur="1.3037516864629641s" repeatCount="indefinite"/>
+    <circle cx="66" cy="322" r="3" fill="#00ffff">
+      <animate attributeName="r" values="3;8;3" dur="1.4013045580480135s" repeatCount="indefinite"/>
     </circle>
     
-    <circle cx="346" cy="332" r="3" fill="#00ffff">
-      <animate attributeName="r" values="3;8;3" dur="0.9219157996014652s" repeatCount="indefinite"/>
+    <circle cx="310" cy="276" r="3" fill="#00ffff">
+      <animate attributeName="r" values="3;8;3" dur="1.1972096991205792s" repeatCount="indefinite"/>
     </circle>
     
-    <circle cx="294" cy="228" r="3" fill="#00ffff">
-      <animate attributeName="r" values="3;8;3" dur="1.4241259097128967s" repeatCount="indefinite"/>
+    <circle cx="434" cy="421" r="3" fill="#00ffff">
+      <animate attributeName="r" values="3;8;3" dur="1.2905602814967074s" repeatCount="indefinite"/>
     </circle>
     
-    <circle cx="365" cy="161" r="3" fill="#00ffff">
-      <animate attributeName="r" values="3;8;3" dur="1.2046391973358515s" repeatCount="indefinite"/>
+    <circle cx="228" cy="162" r="3" fill="#00ffff">
+      <animate attributeName="r" values="3;8;3" dur="0.9213310685986286s" repeatCount="indefinite"/>
     </circle>
     
 
-<rect x="20" y="420" width="69" height="8" fill="#00ffff" class="glow"/>
-<rect x="20" y="440" width="111" height="8" fill="#00ffff"/>
+<rect x="20" y="420" width="90" height="8" fill="#00ffff" class="glow"/>
+<rect x="20" y="440" width="66" height="8" fill="#00ffff"/>
 
-<text x="20" y="30" class="text">LATENCY: 48 ms</text>
-<text x="20" y="50" class="text">CPU: 23%</text>
-<text x="20" y="70" class="text">MEM: 37%</text>
+<text x="20" y="30" class="text">LATENCY: 40 ms</text>
+<text x="20" y="50" class="text">CPU: 30%</text>
+<text x="20" y="70" class="text">MEM: 22%</text>
 <text x="20" y="90" class="text">SEC: LOW</text>
 <text x="20" y="110" class="text">THREAT: STABLE</text>
 
