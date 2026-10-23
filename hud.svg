@@ -28,29 +28,29 @@
 </line>
 
 
-    <circle cx="296" cy="371" r="3" fill="#ffaa00">
-      <animate attributeName="r" values="3;8;3" dur="1.4785415763973688s" repeatCount="indefinite"/>
+    <circle cx="206" cy="292" r="3" fill="#ffaa00">
+      <animate attributeName="r" values="3;8;3" dur="1.0776228920518582s" repeatCount="indefinite"/>
     </circle>
     
-    <circle cx="328" cy="227" r="3" fill="#ffaa00">
-      <animate attributeName="r" values="3;8;3" dur="1.0722161566351505s" repeatCount="indefinite"/>
+    <circle cx="285" cy="99" r="3" fill="#ffaa00">
+      <animate attributeName="r" values="3;8;3" dur="1.1563576449724748s" repeatCount="indefinite"/>
     </circle>
     
-    <circle cx="211" cy="186" r="3" fill="#ffaa00">
-      <animate attributeName="r" values="3;8;3" dur="1.2696184673603037s" repeatCount="indefinite"/>
+    <circle cx="319" cy="365" r="3" fill="#ffaa00">
+      <animate attributeName="r" values="3;8;3" dur="1.0575230840362668s" repeatCount="indefinite"/>
     </circle>
     
-    <circle cx="226" cy="237" r="3" fill="#ffaa00">
-      <animate attributeName="r" values="3;8;3" dur="1.3906527462997218s" repeatCount="indefinite"/>
+    <circle cx="273" cy="69" r="3" fill="#ffaa00">
+      <animate attributeName="r" values="3;8;3" dur="1.1181872652043556s" repeatCount="indefinite"/>
     </circle>
     
 
-<rect x="20" y="420" width="117" height="8" fill="#ffaa00" class="glow"/>
-<rect x="20" y="440" width="93" height="8" fill="#ffaa00"/>
+<rect x="20" y="420" width="216" height="8" fill="#ffaa00" class="glow"/>
+<rect x="20" y="440" width="114" height="8" fill="#ffaa00"/>
 
-<text x="20" y="30" class="text">LATENCY: 41 ms</text>
-<text x="20" y="50" class="text">CPU: 39%</text>
-<text x="20" y="70" class="text">MEM: 31%</text>
+<text x="20" y="30" class="text">LATENCY: 51 ms</text>
+<text x="20" y="50" class="text">CPU: 72%</text>
+<text x="20" y="70" class="text">MEM: 38%</text>
 <text x="20" y="90" class="text">SEC: LOW</text>
 <text x="20" y="110" class="text">THREAT: ELEVATED</text>
 
