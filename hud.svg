@@ -28,30 +28,30 @@
 </line>
 
 
-    <circle cx="62" cy="65" r="3" fill="#00ffff">
-      <animate attributeName="r" values="3;8;3" dur="1.2233509796463902s" repeatCount="indefinite"/>
+    <circle cx="427" cy="98" r="3" fill="#00ffff">
+      <animate attributeName="r" values="3;8;3" dur="1.0530266401945994s" repeatCount="indefinite"/>
     </circle>
     
-    <circle cx="221" cy="358" r="3" fill="#00ffff">
-      <animate attributeName="r" values="3;8;3" dur="1.291358890067161s" repeatCount="indefinite"/>
+    <circle cx="255" cy="102" r="3" fill="#00ffff">
+      <animate attributeName="r" values="3;8;3" dur="1.3211705274271712s" repeatCount="indefinite"/>
     </circle>
     
-    <circle cx="433" cy="320" r="3" fill="#00ffff">
-      <animate attributeName="r" values="3;8;3" dur="1.433541042135425s" repeatCount="indefinite"/>
+    <circle cx="207" cy="214" r="3" fill="#00ffff">
+      <animate attributeName="r" values="3;8;3" dur="1.4477980270789843s" repeatCount="indefinite"/>
     </circle>
     
-    <circle cx="387" cy="218" r="3" fill="#00ffff">
-      <animate attributeName="r" values="3;8;3" dur="1.4144009576525953s" repeatCount="indefinite"/>
+    <circle cx="164" cy="123" r="3" fill="#00ffff">
+      <animate attributeName="r" values="3;8;3" dur="1.330535907286717s" repeatCount="indefinite"/>
     </circle>
     
 
-<rect x="20" y="420" width="168" height="8" fill="#00ffff" class="glow"/>
-<rect x="20" y="440" width="117" height="8" fill="#00ffff"/>
+<rect x="20" y="420" width="120" height="8" fill="#00ffff" class="glow"/>
+<rect x="20" y="440" width="132" height="8" fill="#00ffff"/>
 
-<text x="20" y="30" class="text">LATENCY: 79 ms</text>
-<text x="20" y="50" class="text">CPU: 56%</text>
-<text x="20" y="70" class="text">MEM: 39%</text>
-<text x="20" y="90" class="text">SEC: LOW</text>
+<text x="20" y="30" class="text">LATENCY: 109 ms</text>
+<text x="20" y="50" class="text">CPU: 40%</text>
+<text x="20" y="70" class="text">MEM: 44%</text>
+<text x="20" y="90" class="text">SEC: MEDIUM</text>
 <text x="20" y="110" class="text">THREAT: STABLE</text>
 
 <text x="250" y="255" text-anchor="middle" class="text glow">
