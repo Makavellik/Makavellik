@@ -28,29 +28,29 @@
 </line>
 
 
-    <circle cx="101" cy="347" r="3" fill="#ff0033">
-      <animate attributeName="r" values="3;8;3" dur="0.9386358273890882s" repeatCount="indefinite"/>
+    <circle cx="208" cy="167" r="3" fill="#ff0033">
+      <animate attributeName="r" values="3;8;3" dur="1.4043010703139758s" repeatCount="indefinite"/>
     </circle>
     
-    <circle cx="214" cy="283" r="3" fill="#ff0033">
-      <animate attributeName="r" values="3;8;3" dur="1.072289636274777s" repeatCount="indefinite"/>
+    <circle cx="155" cy="383" r="3" fill="#ff0033">
+      <animate attributeName="r" values="3;8;3" dur="0.9807693762030467s" repeatCount="indefinite"/>
     </circle>
     
-    <circle cx="223" cy="150" r="3" fill="#ff0033">
-      <animate attributeName="r" values="3;8;3" dur="1.0207628088247889s" repeatCount="indefinite"/>
+    <circle cx="182" cy="227" r="3" fill="#ff0033">
+      <animate attributeName="r" values="3;8;3" dur="1.0664832729655414s" repeatCount="indefinite"/>
     </circle>
     
-    <circle cx="258" cy="296" r="3" fill="#ff0033">
-      <animate attributeName="r" values="3;8;3" dur="0.9327876572732218s" repeatCount="indefinite"/>
+    <circle cx="338" cy="288" r="3" fill="#ff0033">
+      <animate attributeName="r" values="3;8;3" dur="1.1342258294885603s" repeatCount="indefinite"/>
     </circle>
     
 
 <rect x="20" y="420" width="249" height="8" fill="#ff0033" class="glow"/>
-<rect x="20" y="440" width="180" height="8" fill="#ff0033"/>
+<rect x="20" y="440" width="264" height="8" fill="#ff0033"/>
 
-<text x="20" y="30" class="text">LATENCY: 37 ms</text>
+<text x="20" y="30" class="text">LATENCY: 25 ms</text>
 <text x="20" y="50" class="text">CPU: 83%</text>
-<text x="20" y="70" class="text">MEM: 60%</text>
+<text x="20" y="70" class="text">MEM: 88%</text>
 <text x="20" y="90" class="text">SEC: HIGH</text>
 <text x="20" y="110" class="text">THREAT: CRITICAL</text>
 
@@ -59,7 +59,7 @@
 </text>
 
 <text x="250" y="280" text-anchor="middle" class="text">
-  ANALYZING...
+  ADAPTING...
 </text>
 
 </svg>
